@@ -18,7 +18,10 @@
   href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
   integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
   crossorigin="anonymous">
-<link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+  
+
+    <!--fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Quicksand|Satisfy|Montserrat&display=swap" rel="stylesheet">
 </head>
 
 <body>
@@ -26,20 +29,32 @@
     <!--Jumbotron-->
     <div class="jumbotron JumboHeaderImg">
       <div class="container-fluid">
-        <h1 class="display-4" style="font-family: 'Montserrat', sans-serif; color: #e3f2fd;">Charlotte Mountain</h1>
+        <h1 class="display-4">Charlotte Mountain<br></h1>
       </div>
+
     </div>
-    <style>
-      .JumboHeaderImg{
-          background-image: url("./mountain.jpg");
-          background-repeat: no-repeat;
-          background-size:1500px;
-          margin-bottom: 0;
-      }
-      </style>
-  
+      <style>
+
+          .display-4{
+              font-family: 'Satisfy', cursive;
+              font-weight: bold;
+              font-size:125px; 
+              text-align:center; 
+              color: #f7f7f7;
+              text-shadow: 6px 6px #7091d8;
+          }
+          .JumboHeaderImg{
+              background-image: url("./mountain.jpg");
+              background-repeat: no-repeat;
+              background-size:1500px;
+              margin-bottom: 0;
+          }
+          </style>
+
+
+
  <!--Nav Bar-->
- <nav class="navbar navbar-light" style="font-family: courier; background-color: #e3f2fd; ">
+ <nav class="navbar navbar-light" style="font-family: 'Montserrat'; background-color: #e3f2fd; ">
     <a class="navbar-brand" href="#">
     <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
@@ -63,6 +78,23 @@
   </nav>
 
   
+    <!--Title-->
+    <header 
+    style=
+    "font-family: 'Montserrat';
+    letter-spacing:10px; 
+    font-size: 75px; 
+    text-align:center;">
+    About Me</header> 
+
+      <div class="container">
+    
+        <section id="main-bio"style="font-family: courier; text-align:center;">
+          <img src="./charlotte.jpg" alt="Your Image" id="bio-image"><br>
+          <br>
+          <p>Based out of San Diego, CA. Enjoys cooking, reading, movies and live concerts. Currently, I am Coding Bootcamp student in Web Design and Software Development. 
+              Hoping to apply my newly learned skill set to a new profession!</p>
+        </section>
 
 
   <script

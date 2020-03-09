@@ -15,28 +15,41 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
     <!--fonts-->
-    <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Quicksand|Satisfy|Montserrat&display=swap" rel="stylesheet">
 </head> 
 
 <body>
 
 
+    <!--Jumbotron-->
     <div class="jumbotron JumboHeaderImg">
         <div class="container-fluid">
-          <h1 class="display-4" style="font-family: 'Montserrat', sans-serif; color: #e3f2fd;">Charlotte Mountain</h1>
+          <h1 class="display-4">Charlotte Mountain<br></h1>
         </div>
+
       </div>
-      <style>
-        .JumboHeaderImg{
-            background-image: url("./mountain.jpg");
-            background-repeat: no-repeat;
-            background-size:1500px;
-            margin-bottom: 0;
-        }
-        </style>
+        <style>
+
+            .display-4{
+                font-family: 'Satisfy', cursive;
+                font-weight: bold;
+                font-size:125px; 
+                text-align:center; 
+                color: #f7f7f7;
+                text-shadow: 6px 6px #7091d8;
+            }
+            .JumboHeaderImg{
+                background-image: url("./mountain.jpg");
+                background-repeat: no-repeat;
+                background-size:1500px;
+                margin-bottom: 0;
+            }
+            </style>
+
+
 
  <!--Nav Bar-->
- <nav class="navbar navbar-light" style="font-family: courier; background-color: #e3f2fd;">
+ <nav class="navbar navbar-light" style="font-family: 'Montserrat'; background-color: #e3f2fd;">
     <a class="navbar-brand" href="#">
     <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
@@ -57,12 +70,17 @@
     </div>
   </a>
   </nav>
+  
 
-      <header style="font-family: 'Montserrat', sans-serif;letter-spacing:7px; font-weight: bold; font-size: x-large;">Contact</header>  
-
-
-        <div class="card" style="font-family: courier;">
-            <div class="card-body">
+    <header 
+    style=
+    "font-family: 'Montserrat';
+    letter-spacing:10px; 
+    font-size: 75px; 
+    text-align:center;">
+    Contact</header>  
+  
+    <container style="font-family: 'Satisfy', cursive; text-align:center; font-size: 30px;">
         <ul>
          <ion-icon name="mail-outline"></ion-icon>
             <a href="mailto:charr.mt@gmail.com" style="color:black;">Email</a><br>
@@ -71,9 +89,7 @@
           <ion-icon name="logo-github"> </ion-icon>
               <a href="https://github.com/charrmountain"style="color:black;">GitHub</a><br>   
         </ul>
-        </div>
-        </div>
-
+    </container>
       
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
