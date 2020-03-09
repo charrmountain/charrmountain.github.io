@@ -10,53 +10,25 @@
   <!-- This critical line points your HTML to the CSS file. Notice the "relative" pathway  -->
   <link rel="stylesheet" type="text/html" href="contact.html">
   <link rel="stylesheet" type="text/html" href="portfio.html">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 
-  
+  <!--fonts-->
+  <link href="https://fonts.googleapis.com/css?family=Quicksand|Satisfy|Montserrat&display=swap" rel="stylesheet">
+  <!--stylesheet-->
+  <link rel="stylesheet" href="style.css">
 
-  <link
-  rel="stylesheet"
-  href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
-  integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
-  crossorigin="anonymous">
-  
-
-    <!--fonts-->
-    <link href="https://fonts.googleapis.com/css?family=Quicksand|Satisfy|Montserrat&display=swap" rel="stylesheet">
 </head>
 
 <body>
 
-    <!--Jumbotron-->
-    <div class="fixed-top">
-        <div class="jumbotron JumboHeaderImg">
-          <div class="container-fluid">
-          <h1 class="display-4">Charlotte Mountain<br></h1>
-          </div>
-        </div>
+  <!--Jumbotron-->
+  <div class="fixed-top">
+    <div class="jumbotron JumboHeaderImg">
+      <div class="container-fluid">
+        <h1 class="display-4 name">Charlotte Mountain<br></h1>
+      </div>
+    </div>
      
-      <!--Jumbotron Style-->
-        <style>
-  
-            .display-4{
-                font-family: 'Satisfy', cursive;
-                font-weight: bold;
-                font-size:125px; 
-                text-align:center; 
-                color: #f7f7f7;
-                text-shadow: 6px 6px #7091d8;
-            }
-            .JumboHeaderImg{
-                background-image: url("./mountain.jpg");
-                background-repeat: no-repeat;
-                background-size:1500px;
-                margin-bottom: 0;
-            }
-  
-           
-            </style>
-  
-  
-  
     <!--Nav Bar-->
     <nav class="navbar navbar-light" style="font-family: 'Montserrat'; background-color: #e3f2fd; ">
       
@@ -82,49 +54,38 @@
       </nav>
   
   </div>
-    
-    <!--Ttitle-->
-    <div class="card text-center">
-        <div class="card-header">Contact</div>  
-
-        <br>
-
-    <!--Contact Icons & Links-->        
-            <div class="card-text">
-                    <!--Email-->
-                    <ion-icon name="mail-outline"></ion-icon>
-                    <a href="mailto:charr.mt@gmail.com" style="color:black;">Email</a><br>
-                    <!--LinkedIn-->
-                    <ion-icon name="logo-linkedin"></ion-icon>
-                    <a href="https://www.linkedin.com/in/charlotte-mountain-b91a7059/" style="color:black;">LinkedIn</a><br>
-                    <!--Facebook-->
-                    <ion-icon name="logo-facebook"> </ion-icon>
-                    <a href="https://www.facebook.com/charlotte.mountain.2"style="color:black;">Facebook</a><br>
-                    <!--Instagram-->
-                    <ion-icon name="logo-instagram"></ion-icon>
-                    <a href="https://www.instagram.com/charrmountain/?hl=en"style="color:black;">Instagram</a><br>
-                    <!--GitHub-->
-                    <ion-icon name="logo-github"> </ion-icon>
-                    <a href="https://github.com/charrmountain"style="color:black;">GitHub</a><br>  
-            </div>
-            
-            <!--Text Style-->
-            <style>
-                    .card-header{
-                        font-family: 'Montserrat';
-                        letter-spacing:10px; 
-                        font-size: 40px; 
-                        text-align:center;  
-                        margin-top: 340px;
-                    }
-
-                    .card-text{
-                        font-family: 'Satisfy', cursive; 
-                        text-align:center; 
-                        font-size: 40px;
-                        padding: 0;
-                    }
-            </style>
+  <div class="container">
+    <div class="row">
+      <div class="col"></div>
+      <div class="col-6">
+        <!--Ttitle-->
+        <div class="card text-center">
+            <div class="card-header contact-card">Contact</div>  
+            <br>
+        <!--Contact Icons & Links-->        
+          <div class="card-text contact-text">
+              <!--Email-->
+              <ion-icon name="mail-outline"></ion-icon>
+              <a href="mailto:charr.mt@gmail.com" style="color:black;">Email</a><br>
+              <!--LinkedIn-->
+              <ion-icon name="logo-linkedin"></ion-icon>
+              <a href="https://www.linkedin.com/in/charlotte-mountain-b91a7059/" style="color:black;">LinkedIn</a><br>
+              <!--Facebook-->
+              <ion-icon name="logo-facebook"> </ion-icon>
+              <a href="https://www.facebook.com/charlotte.mountain.2"style="color:black;">Facebook</a><br>
+              <!--Instagram-->
+              <ion-icon name="logo-instagram"></ion-icon>
+              <a href="https://www.instagram.com/charrmountain/?hl=en"style="color:black;">Instagram</a><br>
+              <!--GitHub-->
+              <ion-icon name="logo-github"> </ion-icon>
+              <a href="https://github.com/charrmountain"style="color:black;">GitHub</a><br>  
+          </div>
+         </div>
+        </div>
+       <div class="col"></div>
+     </div>
+    </div>
+   </div>
     
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->

@@ -10,55 +10,27 @@
   <!-- This critical line points your HTML to the CSS file. Notice the "relative" pathway  -->
   <link rel="stylesheet" type="text/html" href="contact.html">
   <link rel="stylesheet" type="text/html" href="portfio.html">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 
-  
+  <!--fonts-->
+  <link href="https://fonts.googleapis.com/css?family=Quicksand|Satisfy|Montserrat&display=swap" rel="stylesheet">
+  <!--stylesheet-->
+  <link rel="stylesheet" href="style.css">
 
-  <link
-  rel="stylesheet"
-  href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
-  integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
-  crossorigin="anonymous">
-  
-
-    <!--fonts-->
-    <link href="https://fonts.googleapis.com/css?family=Quicksand|Satisfy|Montserrat&display=swap" rel="stylesheet">
 </head>
 
 <body>
-
-    <!--Jumbotron-->
+  <!--Jumbotron-->
 <div class="fixed-top">
-      <div class="jumbotron JumboHeaderImg">
-        <div class="container-fluid">
-        <h1 class="display-4">Charlotte Mountain<br></h1>
-        </div>
+
+    <div class="jumbotron JumboHeaderImg">
+      <div class="container-fluid">
+        <h1 class="display-4 name">Charlotte Mountain<br></h1>
       </div>
-   
-    <!--Jumbotron Style-->
-      <style>
-
-          .display-4{
-              font-family: 'Satisfy', cursive;
-              font-weight: bold;
-              font-size:125px; 
-              text-align:center; 
-              color: #f7f7f7;
-              text-shadow: 6px 6px #7091d8;
-          }
-          .JumboHeaderImg{
-              background-image: url("./mountain.jpg");
-              background-repeat: no-repeat;
-              background-size:1500px;
-              margin-bottom: 0;
-          }
-
-         
-          </style>
-
-
+    </div>
 
   <!--Nav Bar-->
-  <nav class="navbar navbar-light" style="font-family: 'Montserrat'; background-color: #e3f2fd; ">
+  <nav class="navbar navbar-light" style="font-family: 'Montserrat'; background-color: #e3f2fd;">
     
       <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -78,52 +50,35 @@
           </li>
         </ul>
       </div>
-    </a>
     </nav>
 
 </div>
 
-   <!--Title-->
-  <div class="AboutMe">
-   <div class="card text-center">
-    <!--Title-->
-    <div class="card-header">About Me</div>
-
-    <!--About Me-->
-      <div class="card-body">
-        <section id="main-bio">
-          <img class="card-title" src="./charlotte.jpg" alt="Your Image" id="bio-image"><br>
+<!--container aboutme-->
+  <div class="container">
+    <div class="row">
+      <div class="col"></div>
+      <div class="col-6">
+        <div class="card text-center">
+          <div class="card-header bio-card">About Me</div>  
           <br>
-          <p class="card-text">Based out of San Diego, CA. Cat mom who enjoys cooking, reading, movies and live concerts. 
-            Currently, a student at The Coding Bootcamp learning Web Design and Software Development. 
-            Hoping to apply these newly learned skills in a professional environment!</p>
-          </article>
-        </section>
+          <!--About Me-->
+          <div class="card-body">
+              <section id="main-bio">
+                <img class="card-title" src="./charlotte.jpg" alt="Your Image" id="bio-image"><br>
+                <br>
+                <p class="card-text bio-text">Based out of San Diego, CA. Cat mom who enjoys cooking, reading, movies and live concerts. 
+                  Currently, a student at The Coding Bootcamp learning Web Design and Software Development. 
+                  Hoping to apply these newly learned skills in a professional environment!</p>
+                </article>
+              </section>
+          </div>
+        </div>
       </div>
+      <div class="col"></div>
     </div>
   </div>
-  <!--Text Style-->
-    <style>
-
-      .card-header{
-          font-family: 'Montserrat';
-          letter-spacing:10px; 
-          font-size: 40px; 
-          text-align:center; 
-          margin-top: 340px; 
-      }
-      .card-text{
-          font-family: courier; 
-          text-align:center; 
-          font-size: 20px;
-          margin: 0 350px;
-      }
-
-      @media screen and (max-width: 768px) {
-          .aboutme{
-          } 
-      }
-  </style>
+  </div>
 
   <script
   src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
