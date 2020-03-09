@@ -49,10 +49,16 @@
 
 @media (max-width: 1000px) { 
   .portfolio-card, .contact-card, .bio-card{
-    margin-top: 480px;
+    width:100%;
+    margin:auto 0;
+    float: none;
+    margin-top:480px;
   }
 
-  .bio-text{
-    margin: 0 20px;
+  .container{
+    width:100%;
+    margin: 0 auto;
+    float: none;
   }
+
  }
