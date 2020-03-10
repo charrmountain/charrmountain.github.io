@@ -1,9 +1,14 @@
 
+.container-fluid, .col-12, .navbar.navbarlight{
+  padding:0;
+  margin:0;
+}
+
 /* Jumbotron Name*/
 .display-4.name{
   font-family: 'Satisfy', cursive;
   font-weight: bold;
-  font-size:125px; 
+  font-size:100px%; 
   text-align:center; 
   color: #f7f7f7;
   text-shadow: 6px 6px #7091d8;
@@ -59,13 +64,13 @@
 /* Phone edits*/
 @media (max-width: 480px) { 
 /*jumbotron size*/
-.jumbotron.JumboHeaderImg{
-  
-}
+/* .jumbotron.JumboHeaderImg{
+  padding:0;
+} */
 
   /*container fix*/
- .container{
-  width:500px;
+.container {
+  width: 500px;}
  }
 
   /* Portoflio, Contact and About Me--Card Resize*/
