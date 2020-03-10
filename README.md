@@ -1,29 +1,30 @@
-# charrmountain.github.io
+#  **Charlotte Mountain GitHub Portfolio** #
 
-Name
-  Charlotte Mountain GitHub Portfolio
+## **Description**
 
-Description
-    Portfolio bio page on myself, Charlotte. There are three html pages: 
-    1. index.html is the "About Me" page
-    2. portfolio.html is the "Portfolio"       page which will be coming soon!         (none to add yet) 
-    3. contact.html is the "Contacts" page     where there are links to all social     media and email accounts.
+-  Portfolio bio page on myself, Charlotte. 
+    - ### **HTML pages:**
+         1. index.html is the "About Me" page
+         2. portfolio.html is the "Portfolio" page which will be coming soon! (none to add yet) 
+         3. contact.html is the "Contacts" page where there are links to all social media and email accounts.
 
-    Each page begins with a jumbotron with name written across followed by the nav-bar. 
+    - ### **Style Sheets** (used on all HTML pages)**:**
+         1. JS/CSS Bootstrap
+         2. GoogleFonts
+         3. style.css (created by Charlotte)
 
-Visuals
-    There are two img files:
-    1. Charlotte.jpg which is the picture      of myself for the "About Me"
-    2. mountain.jpg which is the picture       for the background of the jumbotron.
+    - ### **Image Files** 
+        1. Charlotte.jpg which is the picture of myself for the "About Me"
+        2. mountain.jpg which is the picture for the background of the jumbotron.
 
-    Upon that there is also a pseudo class of hover when you scroll over the "Coming soon!" in the portfolio.html, can be noted in the style.css sheet. 
+## **Visuals**
+- There also a pseudo class of :hover when you scroll over the "Coming soon!" in the portfolio.html, can be noted in the style.css sheet. 
 
-Usage
-    Used some host websites such as JS/CSS Bootstrap and GoogleFonts
+## **Usage**
+- Used components from some host websites such as JS/CSS Bootstrap and GoogleFonts
 
-Support
-    e-mail: charr.mt@gmail.com
+## **Support**
+- e-mail: charr.mt@gmail.com
 
-
-Thank you!
-Charlotte Mountain
+**Thank you!**
+**Charlotte Mountain**
