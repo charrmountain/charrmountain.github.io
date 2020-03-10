@@ -1,5 +1,5 @@
-
-.container-fluid, .col-12, .navbar.navbarlight{
+/*no padding*/
+.container-fluid, .navbar.navbarlight{
   padding:0;
   margin:0;
 }
