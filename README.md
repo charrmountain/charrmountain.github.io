@@ -14,7 +14,7 @@
          3. [style.css](style.css) (created by Charlotte)
 
     - ### **Image Files** 
-        ![alt](Charlotte.jpg)\
+        ![alt](charlotte.jpg)\
           - picture of myself for the "About Me" 
         ![alt](mountain.jpg)\
           - picture for the background of the jumbotron.

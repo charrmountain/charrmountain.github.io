@@ -7,6 +7,7 @@
   text-align:center; 
   color: #f7f7f7;
   text-shadow: 6px 6px #7091d8;
+  width:100%
 }
 
 /*Jumbotron Background Image */
@@ -15,6 +16,7 @@
   background-repeat: no-repeat;
   background-size:1500px;
   margin-bottom: 0;
+  width:100%
 }
 
 /*Portoflio, Contact and About Me--Card Fonts/Edits */
@@ -55,19 +57,27 @@
 }
 
 /* Phone edits*/
-@media (max-width: 1000px) { 
+@media (max-width: 480px) { 
+/*jumbotron size fix*/
+.jumbotron{
+  width: 500px;
+  margin:0;
+}
+
+/*navbar size fix*/
+.navbar.navbar-light{
+  width:500px;
+
+}
+  /*container fix*/
+ .container{
+  width:500px;
+ }
 
   /* Portoflio, Contact and About Me--Card Resize*/
   .portfolio-card, .contact-card, .bio-card{
     width:100%;
     margin:auto 0;
-    float: none;
-  }
-
-  /* Container of Card Resize*/
-  .container{
-    width:100%;
-    margin: 0 auto;
     float: none;
   }
 
