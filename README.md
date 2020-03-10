@@ -25,6 +25,3 @@
 
 ## **Support**
 - e-mail: charr.mt@gmail.com
-
-**Thank you!**
-**Charlotte Mountain**
