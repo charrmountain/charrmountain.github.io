@@ -1,5 +1,5 @@
 /*no padding*/
-.container-fluid, .navbar.navbarlight{
+.container-fluid, .navbar.navbarlight, .row, .col-12, .col-10{
   padding:0;
   margin:0;
 }
@@ -8,7 +8,7 @@
 .display-4.name{
   font-family: 'Satisfy', cursive;
   font-weight: bold;
-  font-size:100px%; 
+  font-size:150px; 
   text-align:center; 
   color: #f7f7f7;
   text-shadow: 6px 6px #7091d8;
@@ -62,16 +62,20 @@
 }
 
 /* Phone edits*/
-@media (max-width: 480px) { 
-/*jumbotron size*/
-/* .jumbotron.JumboHeaderImg{
-  padding:0;
-} */
+@media (max-width: 580px) { 
 
-  /*container fix*/
-.container {
-  width: 500px;}
- }
+  .display-4.name{
+    font-size: 75px;
+  }
+  /*font size change*/
+  .portfolio-card, .contact-card, .bio-card{
+    font-size: 25px;  
+  }
+  
+  /* font size change */
+  .bio-text{
+    font-size: 15px;
+  }
 
   /* Portoflio, Contact and About Me--Card Resize*/
   .portfolio-card, .contact-card, .bio-card{
