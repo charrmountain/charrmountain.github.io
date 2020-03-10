@@ -58,20 +58,20 @@
 
 /* Phone edits*/
 @media (max-width: 480px) { 
-/*jumbotron size fix*/
+/*jumbotron size*/
 .jumbotron{
-  width: 500px;
+  width:800px;
   margin:0;
 }
 
 /*navbar size fix*/
 .navbar.navbar-light{
-  width:600px;
+  width:500px;
 
 }
   /*container fix*/
  .container{
-  width:600px;
+  width:500px;
  }
 
   /* Portoflio, Contact and About Me--Card Resize*/
