@@ -59,16 +59,10 @@
 /* Phone edits*/
 @media (max-width: 480px) { 
 /*jumbotron size*/
-.jumbotron{
-  width:800px;
-  margin:0;
+.jumbotron.JumboHeaderImg{
+  
 }
 
-/*navbar size fix*/
-.navbar.navbar-light{
-  width:500px;
-
-}
   /*container fix*/
  .container{
   width:500px;
