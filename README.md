@@ -19,6 +19,7 @@
 
 ## **Visuals**
 - There also a pseudo class of :hover when you scroll over the "Coming soon!" in the portfolio.html, can be noted in the style.css sheet. 
+- Media changes for phone capability located in style.css file.
 
 ## **Usage**
 - Used components from some host websites such as JS/CSS Bootstrap and GoogleFonts

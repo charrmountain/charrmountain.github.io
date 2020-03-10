@@ -1,4 +1,5 @@
 
+/* Jumbotron Name*/
 .display-4.name{
   font-family: 'Satisfy', cursive;
   font-weight: bold;
@@ -7,6 +8,8 @@
   color: #f7f7f7;
   text-shadow: 6px 6px #7091d8;
 }
+
+/*Jumbotron Background Image */
 .JumboHeaderImg{
   background-image: url("./mountain.jpg");
   background-repeat: no-repeat;
@@ -14,6 +17,7 @@
   margin-bottom: 0;
 }
 
+/*Portoflio, Contact and About Me--Card Fonts/Edits */
 .portfolio-card, .contact-card, .bio-card{
   position:relative;
   font-family: 'Montserrat';
@@ -22,6 +26,7 @@
   text-align:center;  
 }
 
+/* About me-Font Change */
 .bio-text{
   font-family: courier; 
   text-align:center; 
@@ -29,6 +34,7 @@
   margin: auto 0;
 }
 
+/* Contact Font Change */
 .contact-text{
   font-family: 'Satisfy', cursive; 
   text-align:center; 
@@ -36,23 +42,29 @@
   padding: 0;
 }
 
+/* Portfolio Coming Soon! Font Change */
 .comeback{
   font-family:'Satisfy', cursive; 
   text-align:center; 
   font-size: 75px;
 }
 
+/* Coming Soon! Pseudo Class-- Hover color change*/
 .comeback:hover {
   text-shadow:4px 4px #7091d8;
 }
 
+/* Phone edits*/
 @media (max-width: 1000px) { 
+
+  /* Portoflio, Contact and About Me--Card Resize*/
   .portfolio-card, .contact-card, .bio-card{
     width:100%;
     margin:auto 0;
     float: none;
   }
 
+  /* Container of Card Resize*/
   .container{
     width:100%;
     margin: 0 auto;
