@@ -1,5 +1,7 @@
 #  **Charlotte Mountain GitHub Portfolio** #
 
+[Deployed Link](https://charrmountain.github.io)
+
 ## **Description**
 
 -  Portfolio bio page on myself, Charlotte. 
@@ -14,9 +16,10 @@
          3. [style.css](style.css) (created by Charlotte)
 
     - ### **Image Files** 
-        ![alt](charlotte.jpg)\
+     ![alt](images/DEMO.png)\
+        ![alt](images/charlotte.jpg)\
           - picture of myself for the "About Me" 
-        ![alt](mountain.jpg)\
+        ![alt](images/mountain.jpg)\
           - picture for the background of the jumbotron.
 
 ## **Visuals**
@@ -28,3 +31,4 @@
 
 ## **Support**
 - e-mail: charr.mt@gmail.com
+- [GitHub](https://github.com/charrmountain/charrmountain.github.io)
