@@ -49,17 +49,105 @@
   padding: 0;
 }
 
-/* Portfolio Coming Soon! Font Change */
-.comeback{
-  font-family:'Satisfy', cursive; 
-  text-align:center; 
-  font-size: 75px;
+.portfolio-title{
+  text-shadow:rgb(105, 105, 105) 2px 2px;
+  color:white;
+  font-weight: bolder;
+  text-align:center;
+  font-size: 65px;
+
 }
 
-/* Coming Soon! Pseudo Class-- Hover color change*/
-.comeback:hover {
-  text-shadow:4px 4px #7091d8;
+.portfolio-text{
+  color:white;
+  text-align:center;
+  font-family: 'Satisfy', cursive;
+  font-weight: bold;
 }
+
+.portfolio-text:hover {
+  text-decoration: none;
+  text-shadow:1px 1px #7091d8;
+}
+
+.contact:hover {
+  text-decoration: none;
+  text-shadow:1px 1px #7091d8;
+}
+
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #ece6e6;
+  opacity: 0.75;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  font-family: 'Montserrat';
+  text-decoration: none;
+  font-size: 25px;
+  color: rgb(68, 68, 68);
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenav a:hover {
+  text-shadow:1px 1px #7091d8;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+#pageTitle{
+  position:relative;
+  font-family: 'Montserrat';
+  letter-spacing:10px; 
+  font-size: 40px; 
+  text-align:center;  
+
+}
+
+.center {
+  font-family: 'Montserrat';
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+#day-out-img {
+  opacity: .5;
+  width:575px;
+}
+
+#weather-img{
+  width:575px;
+  opacity: .5;
+}
+
+#NYT-img{
+  width:575px;
+  opacity: .5;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
 
 /* Phone edits*/
 @media (max-width: 580px) { 

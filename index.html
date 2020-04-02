@@ -32,44 +32,28 @@
     </div>
 
   <!--Nav Bar-->
-  <nav class="navbar navbar-light" style="font-family: 'Montserrat'; background-color: #e3f2fd; ">
-
-    <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarSupportedContent"
-      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav mr-auto">
-
-        <li class="nav-home">
-          <a class="nav-link" href="https://charrmountain.github.io/">Home</a>
-        </li>
-        <li class="nav-portfolio">
-          <a class="nav-link" href="portfolio.html">Portfolio</a>
-        </li>
-        <li class="nav-contact">
-          <a class="nav-link" href="contact.html">Contact</a>
-        </li>
-      </ul>
-    </div>
-    </a>
-  </nav>
+  <div class="navbar navbar-light" style="font-family: 'Montserrat'; background-color: #e3f2fd; ">
+   <!-- NavBar -->
+   <div id="mySidenav" class="sidenav">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+    <a class="nav-link" href="https://charrmountain.github.io/">Home</a>
+    <a class="nav-link" href="portfolio.html">Portfolio</a>
+    <a class="nav-link" href="contact.html">Contact</a>
+  </div>
+  <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
+  <div id= "pageTitle" class="center">About Me </div>
 </div>
 
 
 <!--container aboutme-->
-
     <div class="row">
       <div class="col-1"></div>
       <div class="col-10">
-        <div class="card text-center">
-          <div class="card-header bio-card">About Me</div>  
           <br>
           <!--About Me-->
           <div class="card-body">
               <section id="main-bio">
-                <img class="img-fluid" src="./images/charlotte.jpg" alt="Your Image" id="bio-image"><br>
+                <img class="center" src="./images/charlotte.jpg" alt="Your Image" id="bio-image"><br>
                 <br>
                 <p class="card-text bio-text">Based out of San Diego, CA.<br>
                   Web Developer leveraging a background in customer service to build a more intuitive user experience on the web. Recently earned a Certificate in Full Stack Development from the University of California San Diego Extension, with developed skills in JavaScript, CSS, Node.js, JQuery, and responsive web design. <br><br>
@@ -77,13 +61,10 @@
                   With each project, my aim is to best engage my audience for an impactful user experience. I applied aspects of server-side APIs in a recent project where I worked in a team to develop an app that allows the user to visit the Metropolitan Museum. It helps parents and teens educate themselves based upon region, where we also provide projects and recipes to help enhance the user experience. <br><br>
                   When I’m not working or developing, I enjoy being a cat mom, reading, trying out a new recipe, or attending live shows.<br><br>
                   I’m excited to leverage my skills in the future as part of a fast-paced, quality-driven team. 
-                  <a href="./contact.html">Reach out to me!</a>
-
-</p>
+                  <a href="./contact.html" class="contact"style="color:black;"> Reach out to me!</a>
+                </p>
               </section>
           </div>
-        </div>
-      </div>
       <div class="col-1"></div>
     </div>
   </div>
@@ -104,6 +85,7 @@
   integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
   crossorigin="anonymous"
 ></script>
+<script src="script.js"></script>
 
 </body>
 
