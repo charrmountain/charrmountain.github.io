@@ -53,15 +53,16 @@
   text-shadow:rgb(105, 105, 105) 2px 2px;
   color:white;
   font-weight: bolder;
+  font-family: 'Satisfy', cursive;
   text-align:center;
-  font-size: 65px;
+  font-size: 70px;
 
 }
 
 .portfolio-text{
   color:white;
   text-align:center;
-  font-family: 'Satisfy', cursive;
+  font-family: 'Montserrat';
   font-weight: bold;
 }
 
