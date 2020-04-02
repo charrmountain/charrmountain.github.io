@@ -66,8 +66,9 @@
 }
 
 .portfolio-text:hover {
+  color:white;
   text-decoration: none;
-  text-shadow:1px 1px #7091d8;
+  text-shadow:2px 2px rgb(105, 105, 105);
 }
 
 .contact:hover {
