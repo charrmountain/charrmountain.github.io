@@ -54,7 +54,7 @@
   color:white;
   font-weight: bolder;
   font-family: 'Satisfy', cursive;
-  text-align:center;
+  text-align: center;
   font-size: 70px;
 
 }
@@ -153,7 +153,24 @@
 
 /* Phone edits*/
 @media (max-width: 580px) { 
+  .portfolio-title{
+    font-size: 35px;
+  }
 
+  #day-out-img {
+    opacity: .5;
+    width:250px;
+  }
+  
+  #weather-img{
+    width:250px;
+    opacity: .5;
+  }
+  
+  #NYT-img{
+    width:250px;
+    opacity: .5;
+  }
   .display-4.name{
     font-size: 75px;
   }
