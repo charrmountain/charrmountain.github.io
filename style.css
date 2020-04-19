@@ -66,43 +66,7 @@ body,
 /* Phone edits*/
 
 @media (max-width: 580px) {
-    .portfolio-title {
-        font-size: 35px;
-    }
-    #day-out-img {
-        opacity: .5;
-        width: 250px;
-    }
-    #myCarousel {
-        width: 250px;
-    }
-    #weather-img {
-        width: 250px;
-        opacity: .5;
-    }
-    #NYT-img {
-        width: 250px;
-        opacity: .5;
-    }
     .display-4.name {
         font-size: 75px;
-    }
-    /*font size change*/
-    .portfolio-card,
-    .contact-card,
-    .bio-card {
-        font-size: 25px;
-    }
-    /* font size change */
-    .bio-text {
-        font-size: 15px;
-    }
-    /* Portoflio, Contact and About Me--Card Resize*/
-    .portfolio-card,
-    .contact-card,
-    .bio-card {
-        width: 100%;
-        margin: auto 0;
-        float: none;
     }
 }
