@@ -15,27 +15,6 @@
          2. [GoogleFonts](https://fonts.google.com/)
          3. [style.css](style.css) (created by Charlotte)
 
-    - ### **Image Files** 
-     ![alt](images/DEMO.png)
-
-     ![alt](images/charlotte.jpg)
-       - picture of myself for the "About Me" 
-      
-     ![alt](images/mountain.jpg)
-       - picture for the background of the jumbotron.
-
-     ![alt](images/aDayOutObjectZoom.png)
-       - picture from A Day Out project
-
-     ![alt](images/NYTSearch.png)
-       - picture from New York Times Search project
-
-     ![alt](images/weatherdashboard.png)
-       - picture for the weather dashboard project
-
-     - PDF of Resume attached at (images/resume20.pdf)
-      
-
 ## **Visuals**
 - There also a pseudo class of `:hover` when you scroll over the links in the can be noted in the [style.css](style.css) sheet.
 - Media changes for phone capability located in [style.css](style.css) file.
