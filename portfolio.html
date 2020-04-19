@@ -4,111 +4,189 @@
 
 <head>
 
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Charlotte Mountain GitHub Portfolio</title>
-  
-  <!-- This critical line points your HTML to the CSS file. Notice the "relative" pathway  -->
-  <link rel="stylesheet" type="text/html" href="contact.html">
-  <link rel="stylesheet" type="text/html" href="portfio.html">
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Charlotte Mountain GitHub Portfolio HOME</title>
+    <!-- This critical line points your HTML to the CSS file. Notice the "relative" pathway  -->
+    <link rel="stylesheet" type="text/html" href="contact.html">
+    <link rel="stylesheet" type="text/html" href="portfio.html">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.4.1/dist/css/uikit.min.css" />
 
-  <!--fonts-->
-  <link href="https://fonts.googleapis.com/css?family=Quicksand|Satisfy|Montserrat&display=swap" rel="stylesheet">
-  <!--stylesheet-->
-  <link rel="stylesheet" href="style.css">
+    <!--fonts-->
+    <link href='http://fonts.googleapis.com/css?family=Satisfy|Roboto:300' rel='stylesheet' type='text/css'>
+    <!--stylesheet-->
+    <link rel="stylesheet" href="style.css">
 
 </head>
 
-
 <body>
     <!--Jumbotron-->
-    <div class="container-fluid">
-      <div class="row">
-        <div class= "col-12">
-      <div class="jumbotron JumboHeaderImg">
-          <h1 class="display-4 name">Charlotte Mountain<br></h1>
+    <div class="uk-cover-container uk-height-medium">
+        <div class="uk-height-medium uk-flex uk-flex-center uk-flex-middle uk-background-cover uk-light" data-src="images/mountain.jpg" data-srcset="images/mountain.jpg 650w,
+    images/mountain.jpg 1300w" data-sizes="(min-width: 650px) 650px, 100vw" uk-img>
+            <h1 class="display-4 name">Charlotte Mountain<br></h1>
         </div>
-      </div>
     </div>
-      </div>
-  
-  <!--Nav Bar-->
-  <div class="navbar navbar-light" style="font-family: 'Montserrat'; background-color: #e3f2fd; ">
-    <!-- NavBar -->
-    <div id="mySidenav" class="sidenav">
-     <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-     <a class="nav-link" href="https://charrmountain.github.io/">Home</a>
-     <a class="nav-link" href="portfolio.html">Portfolio</a>
-     <a class="nav-link" href="contact.html">Contact</a>
-   </div>
-   <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
-   <div id= "pageTitle" class="center">Portfolio</div>
- </div>
- 
-<!--coming soon!-->
-          <br>
-          <div class="row center">
-           
-            <!-- Display projects -->
 
-            <div class="example">
-              <div id="myCarousel" class="carousel slide" data-ride="carousel">
 
-                  <div class="carousel-inner">
-                    <div class="carousel-item active">
-                    <img src="/images/aDayOutObjectZoom.png" alt="a-day-out" id="day-out-img">
-                    <div class="carousel-caption">
-                      <h2 class="portfolio-title">A Day Out ... but In</h2>
-                      <h5><a href="https://charrmountain.github.io/a-day-out" class ="portfolio-text"> Deployed</a></h5>
-                      <p><a href="https://github.com/charrmountain/a-day-out"class ="portfolio-text">GitHub Repository</a></p>
-                    </div>
-                  </div>
+    <nav class="uk-navbar-container" uk-navbar>
+        <button class="uk-navbar-toggle" uk-navbar-toggle-icon uk-toggle="target: #offcanvas-nav"></button>
+    </nav>
+    <div id="offcanvas-nav" uk-offcanvas="overlay: true">
+        <div class="uk-offcanvas-bar">
 
-                  <div class="carousel-item">
-                    <img src="/images/weatherdashboard.png" alt="weather" id="weather-img">
-                    <div class="carousel-caption">
-                      <h2 class="portfolio-title">Weather Dashboard</h2>
-                      <h5><a href="https://charrmountain.github.io/weather-forecast/" class ="portfolio-text"> Deployed</a></h5>
-                      <p><a href="https://github.com/charrmountain/weather-forecast"class ="portfolio-text">GitHub Repository</a></p>
-                    </div>
-                    <br><br>
-                  </div>
+            <ul class="uk-nav uk-nav-default">
+                <button class="uk-offcanvas-close" type="button" uk-close></button>
+                <li class="uk-active"><a href="portfolio.html">PORTFOLIO</a></li>
+                <li class="uk-nav-divider"></li>
+                <li class="uk-parent">
+                    <li><a href="https://charrmountain.github.io/">Profile</a></li>
 
-                  <div class="carousel-item">
-                    <img src="/images/NYTSearch.png" alt="a-day-out" id="NYT-img">
-                    <div class="carousel-caption">
-                      <h2 class="portfolio-title">New York Times Search</h2>
-                      <h5><a href="https://charrmountain.github.io/NYTsearch/" class ="portfolio-text"> Deployed</a></h5>
-                      <p><a href="https://github.com/charrmountain/NYTsearch"class ="portfolio-text">GitHub Repository</a></p>
-                    </div>
-                    <br><br>
-                  </div>
-                  
+                </li>
+                <li class="uk-nav-header">Contact</li>
+                <li><a href="mailto:charr.mt@gmail.com"><span class="uk-margin-small-right" ></span><ion-icon name="mail-outline"></ion-icon>   Mail</a></li>
+                <li><a href="https://github.com/charrmountain"><span class="uk-margin-small-right" ></span><ion-icon name="logo-github"></ion-icon>   GitHub</a></li>
+                <li><a href="https://www.linkedin.com/in/charlotte-mountain-b91a7059/"><span class="uk-margin-small-right" ></span><ion-icon name="logo-linkedin"></ion-icon>   LinkedIn</a></li>
+                <li><a href="https://www.instagram.com/charrmountain/?hl=en"><span class="uk-margin-small-right" ></span><ion-icon name="logo-instagram"></ion-icon>   Instagram</a></li>
+                <li><a href="https://www.facebook.com/charlotte.mountain.2"><span class="uk-margin-small-right" ></span><ion-icon name="logo-facebook"></ion-icon>   Facebook</a></li>
+            </ul>
+        </div>
+    </div>
+    <br><br>
+
+    <div class="uk-container">
+        <div class="uk-card uk-card-default uk-grid-collapse uk-child-width-1-2@s uk-margin uk-grid" uk-grid="">
+            <div class="uk-first-column">
+                <div class="uk-card-body">
+                    <h3 class="uk-card-title">
+                        <a href="https://charrmountain.github.io/a-day-out/" target="_blank" class="uk-list uk-link-text" style="text-decoration: none;">A Day Out</a>
+                    </h3>
+                    <p>
+                        An arts education application utilizing the Metropolitan Museum of Art's collections
+                    </p>
+                    <p class="uk-margin-remove">
+                        <a href="https://github.com/charrmountain/a-day-out/" target="_blank" class="uk-link-muted" style="text-decoration: none;">
+                            <ion-icon name="logo-github"></ion-icon> GitHub</a>
+                        <br><br>
+                        <div uk-lightbox>
+                            <a class="uk-button uk-button-default" href="/images/ADayOut.gif" data-caption="A Day Out">Demo</a>
+                        </div>
+                    </p>
                 </div>
-                <a class="carousel-control-prev" href="#myCarousel" data-slide="prev">
-                  <span class="carousel-control-prev-icon"></span>
-              </a>
-              <a class="carousel-control-next" href="#myCarousel" data-slide="next">
-                  <span class="carousel-control-next-icon"></span> 
-              </div>
-              
+            </div>
+            <div class="uk-card-media-left uk-cover-container">
+                <img src="./images/met.jpeg" alt="" uk-cover="" class="uk-cover" style="height: 795px; width: 600px;">
+                <canvas width="600" height="400"></canvas>
+            </div>
         </div>
 
+        <div class="uk-card uk-card-default uk-grid-collapse uk-child-width-1-2@s uk-margin uk-grid" uk-grid="">
+            <div class="uk-card-media-left uk-cover-container uk-first-column">
+                <img src="./images/burger.jpg" alt="" uk-cover="" class="uk-cover" style="height: 417px; width: 600px;">
+                <canvas width="600" height="400"></canvas>
+            </div>
+            <div class="">
+                <div class="uk-card-body">
+                    <h3 class="uk-card-title">
+                        <a href="https://evening-thicket-44264.herokuapp.com/" target="_blank" class="uk-list uk-link-text" style="text-decoration: none;">Burger Devour</a>
+                    </h3>
+                    <p>
+                        An entertaining application that allows the user to create & devour burgers
+                    </p>
+                    <p class="uk-margin-remove">
+                        <a href="https://github.com/charrmountain/burger/" target="_blank" class="uk-link-muted" style="text-decoration: none;">
+                            <ion-icon name="logo-github"></ion-icon> GitHub</a>
+                        <br><br>
+                        <div uk-lightbox>
+                            <a class="uk-button uk-button-default" href="/images/Burger.gif" data-caption="Burger Devour">Demo</a>
+                        </div>
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="uk-card uk-card-default uk-grid-collapse uk-child-width-1-2@s uk-margin uk-grid" uk-grid="">
+            <div class="uk-flex-last@s uk-card-media-right uk-cover-container">
+                <img src="./images/note.jpg" alt="" uk-cover="" class="uk-cover" style="height: 401px; width: 600px;">
+                <canvas width="600" height="400"></canvas>
+            </div>
+            <div class="">
+                <div class="uk-card-body">
+                    <h3 class="uk-card-title">
+                        <a href="https://blooming-forest-27574.herokuapp.com/" target="_blank" class="uk-list uk-link-text" style="text-decoration: none;">Note Taker</a>
+                    </h3>
+                    <p> An application that can be used to write, save, and delete notes.</p>
+                    <p class="uk-margin-remove">
+                        <a href="https://github.com/charrmountain/note-taker" target="_blank" class="uk-link-muted" style="text-decoration: none;">
+                            <ion-icon name="logo-github"></ion-icon> GitHub</a>
+                        <br><br>
+                        <div uk-lightbox>
+                            <a class="uk-button uk-button-default" href="/images/noteDemo.gif" data-caption="Note Taker">Demo</a>
+                        </div>
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="uk-card uk-card-default uk-grid-collapse uk-child-width-1-2@s uk-margin uk-grid" uk-grid="">
+            <div class="uk-card-media-left uk-cover-container uk-first-column">
+                <img src="./images/weather.jpg" alt="" uk-cover="" class="uk-cover" style="height: 400px; width: 627px;">
+                <canvas width="600" height="400"></canvas>
+            </div>
+            <div class="uk-first-column">
+                <div class="uk-card-body">
+                    <h3 class="uk-card-title">
+                        <a href="https://charrmountain.github.io/weather-forecast/" target="_blank" class="uk-list uk-link-text" style="text-decoration: none;">Weather Dashboard</a>
+                    </h3>
+                    <p>
+                        Weather dashboard that will retrieve a city's current weather and forecast from the user's choice
+                    </p>
+                    <p class="uk-margin-remove">
+                        <a href="https://github.com/charrmountain/weather-forecast" target="_blank" class="uk-link-muted" style="text-decoration: none;">
+                            <ion-icon name="logo-github"></ion-icon> GitHub</a>
+                        <br><br>
+                        <div uk-lightbox>
+                            <a class="uk-button uk-button-default" href="/images/weather.gif" data-caption="Weather Dashboard">Demo</a>
+                        </div>
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="uk-card uk-card-default uk-grid-collapse uk-child-width-1-2@s uk-margin uk-grid" uk-grid="">
+            <div class="uk-flex-last@s uk-card-media-right uk-cover-container">
+                <img src="./images/work.jpeg" alt="" uk-cover="" class="uk-cover" style="height: 401px; width: 600px;">
+                <canvas width="600" height="400"></canvas>
+            </div>
+            <div class="">
+                <div class="uk-card-body">
+                    <h3 class="uk-card-title">
+                        <a href="https://charrmountain.github.io/work-day-scheduler" target="_blank" class="uk-list uk-link-text" style="text-decoration: none;">Day Planner</a>
+                    </h3>
+                    <p>A daily work planner that displays hourly storable sections that changes color to display past, current, and future hours</p>
+                    <p class="uk-margin-remove">
+                        <a href="https://github.com/charrmountain/work-day-scheduler" target="_blank" class="uk-link-muted" style="text-decoration: none;">
+                            <ion-icon name="logo-github"></ion-icon> GitHub</a>
+                        <br><br>
+                        <div uk-lightbox>
+                            <a class="uk-button uk-button-default" href="/images/Demo.gif" data-caption="Note Taker">Demo</a>
+                        </div>
+                    </p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <br><br>
 
 
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
-      integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
-      crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
-      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
-      crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
-      integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
-      crossorigin="anonymous"></script>
-      <script src="script.js"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <!-- UIkit JS -->
+    <script src="https://cdn.jsdelivr.net/npm/uikit@3.4.1/dist/js/uikit.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/uikit@3.4.1/dist/js/uikit-icons.min.js"></script>
+    <script src="https://unpkg.com/ionicons@5.0.0/dist/ionicons.js"></script>
+    <script src="script.js"></script>
+
 </body>
 
 </html>

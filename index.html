@@ -4,86 +4,89 @@
 
 <head>
 
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Charlotte Mountain GitHub Portfolio</title>
-  <!-- This critical line points your HTML to the CSS file. Notice the "relative" pathway  -->
-  <link rel="stylesheet" type="text/html" href="contact.html">
-  <link rel="stylesheet" type="text/html" href="portfio.html">
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Charlotte Mountain GitHub Portfolio HOME</title>
+    <!-- This critical line points your HTML to the CSS file. Notice the "relative" pathway  -->
+    <link rel="stylesheet" type="text/html" href="contact.html">
+    <link rel="stylesheet" type="text/html" href="portfio.html">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.4.1/dist/css/uikit.min.css" />
 
-  <!--fonts-->
-  <link href="https://fonts.googleapis.com/css?family=Quicksand|Satisfy|Montserrat&display=swap" rel="stylesheet">
-  <!--stylesheet-->
-  <link rel="stylesheet" href="style.css">
+    <!--fonts-->
+    <link href='http://fonts.googleapis.com/css?family=Satisfy|Roboto:300' rel='stylesheet' type='text/css'>
+    <!--stylesheet-->
+    <link rel="stylesheet" href="style.css">
 
 </head>
 
 <body>
-  <!--Jumbotron-->
-  <div class="container-fluid">
-    <div class="row">
-      <div class= "col-12">
-    <div class="jumbotron JumboHeaderImg">
-        <h1 class="display-4 name">Charlotte Mountain<br></h1>
-      </div>
-    </div>
-    </div>
+    <!--Jumbotron-->
+    <div class="uk-cover-container uk-height-medium">
+        <div class="uk-height-medium uk-flex uk-flex-center uk-flex-middle uk-background-cover uk-light" data-src="images/mountain.jpg" data-srcset="images/mountain.jpg 650w,
+    images/mountain.jpg 1300w" data-sizes="(min-width: 650px) 650px, 100vw" uk-img>
+            <h1 class="display-4 name">Charlotte Mountain<br></h1>
+        </div>
     </div>
 
-  <!--Nav Bar-->
-  <div class="navbar navbar-light" style="font-family: 'Montserrat'; background-color: #e3f2fd; ">
-   <!-- NavBar -->
-   <div id="mySidenav" class="sidenav">
-    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-    <a class="nav-link" href="https://charrmountain.github.io/">Home</a>
-    <a class="nav-link" href="portfolio.html">Portfolio</a>
-    <a class="nav-link" href="contact.html">Contact</a>
-  </div>
-  <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
-  <div id= "pageTitle" class="center">About Me </div>
-</div>
 
+    <nav class="uk-navbar-container" uk-navbar>
+        <button class="uk-navbar-toggle" uk-navbar-toggle-icon uk-toggle="target: #offcanvas-nav"></button>
+    </nav>
+    <div id="offcanvas-nav" uk-offcanvas="overlay: true">
+        <div class="uk-offcanvas-bar">
 
-<!--container aboutme-->
-    <div class="row">
-      <div class="col-1"></div>
-      <div class="col-10">
-          <br>
-          <!--About Me-->
-          <div class="card-body">
-              <section id="main-bio">
-                <img class="center" src="./images/charlotte.jpg" alt="Your Image" id="bio-image"><br>
-                <br>
-                <p class="card-text bio-text">Based out of San Diego, CA.<br>
-                  Web Developer leveraging a background in customer service to build a more intuitive user experience on the web. Recently earned a Certificate in Full Stack Development from the University of California San Diego Extension, with developed skills in JavaScript, CSS, Node.js, JQuery, and responsive web design. With each project, my aim is to best engage my audience for an impactful user experience.<br><br>
-                  I enjoy reading, trying out a new recipe, or attending live shows. At the end of the day, I'm really trying to be the best cat mom I can be.<br><br>
-                  I’m excited to leverage my skills in the future as part of a fast-paced, quality-driven team. 
-                  <a href="./contact.html" class="contact"style="color:black;"> Reach out to me!</a>
-                </p>
-              </section>
-          </div>
-      <div class="col-1"></div>
+            <ul class="uk-nav uk-nav-default">
+                <button class="uk-offcanvas-close" type="button" uk-close></button>
+                <li class="uk-active"><a href="https://charrmountain.github.io/">PROFILE</a></li>
+                <li class="uk-nav-divider"></li>
+                <li class="uk-parent">
+                    <li><a href="portfolio.html">Portfolio</a></li>
+
+                </li>
+                <li class="uk-nav-header">Contact</li>
+                <li><a href="mailto:charr.mt@gmail.com"><span class="uk-margin-small-right" ></span><ion-icon name="mail-outline"></ion-icon>   Mail</a></li>
+                <li><a href="https://github.com/charrmountain"><span class="uk-margin-small-right" ></span><ion-icon name="logo-github"></ion-icon>   GitHub</a></li>
+                <li><a href="https://www.linkedin.com/in/charlotte-mountain-b91a7059/"><span class="uk-margin-small-right" ></span><ion-icon name="logo-linkedin"></ion-icon>   LinkedIn</a></li>
+                <li><a href="https://www.instagram.com/charrmountain/?hl=en"><span class="uk-margin-small-right" ></span><ion-icon name="logo-instagram"></ion-icon>   Instagram</a></li>
+                <li><a href="https://www.facebook.com/charlotte.mountain.2"><span class="uk-margin-small-right" ></span><ion-icon name="logo-facebook"></ion-icon>   Facebook</a></li>
+            </ul>
+        </div>
     </div>
-  </div>
+    <br><br><img id="forecast-icon-24" src="http://openweathermap.org/img/wn/03d@2x.png">
+
+    <div class="uk-container">
+        <div class="uk-card uk-card-default uk-grid-collapse uk-box-shadow-xlarge uk-child-width-1-2@s uk-margin uk-grid" uk-grid="">
+            <div class="uk-card-media-left uk-cover-container uk-first-column">
+                <img src="./images/charlotte.jpg" alt="Your Image" uk-cover>
+                <canvas width="600" height="400"></canvas>
+            </div>
+            <div>
+                <div class="uk-card-body">
+                    <p>Web Developer leveraging a background in customer service to build a more intuitive user experience on the web. Recently earned a Certificate in Full Stack Development from the University of California San Diego Extension, with developed
+                        skills in JavaScript, CSS, Node.js, JQuery, and responsive web design. With each project, my aim is to best engage my audience for an impactful user experience.<br><br> I enjoy reading, trying out a new recipe, or attending live
+                        shows. At the end of the day, I'm really trying to be the best cat mom I can be.<br><br> I’m excited to leverage my skills in the future as part of a fast-paced, quality-driven team.
+                        <br><br>
+                        <span uk-icon="location"></span> San Diego
+                        <p><a href="./contact.html" class="uk-link-muted uk-margin-remove contact" style="color:rgb(105, 105, 105) 2px 2px;"> CHECK THE PROJECTS</a></p>
+                    </p>
+                    <div uk-lightbox>
+                        <a class="uk-button uk-button-default" href="/images/resume.jpg" data-caption="Charlotte Mountain's Resume">Resume</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <br><br>
+
+    </div>
 
 
-  <script
-  src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
-  integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
-  crossorigin="anonymous"
-></script>
-<script
-  src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
-  integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
-  crossorigin="anonymous"
-></script>
-<script
-  src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
-  integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
-  crossorigin="anonymous"
-></script>
-<script src="script.js"></script>
+
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <!-- UIkit JS -->
+    <script src="https://cdn.jsdelivr.net/npm/uikit@3.4.1/dist/js/uikit.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/uikit@3.4.1/dist/js/uikit-icons.min.js"></script>
+    <script src="https://unpkg.com/ionicons@5.0.0/dist/ionicons.js"></script>
+    <script src="script.js"></script>
 
 </body>
 
