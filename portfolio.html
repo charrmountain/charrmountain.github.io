@@ -21,6 +21,7 @@
 </head>
 
 <body>
+
     <!--Jumbotron-->
     <div class="uk-cover-container uk-height-medium">
         <div class="uk-height-medium uk-flex uk-flex-center uk-flex-middle uk-background-cover uk-light" data-src="images/mountain.jpg" data-srcset="images/mountain.jpg 650w,
@@ -33,25 +34,27 @@
     <nav class="uk-navbar-container" uk-navbar>
         <button class="uk-navbar-toggle" uk-navbar-toggle-icon uk-toggle="target: #offcanvas-nav"></button>
     </nav>
-    <div id="offcanvas-nav" uk-offcanvas="overlay: true">
+    <div id="offcanvas-nav" class="uk-dark" uk-offcanvas="overlay: true">
         <div class="uk-offcanvas-bar">
 
             <ul class="uk-nav uk-nav-default">
                 <button class="uk-offcanvas-close" type="button" uk-close></button>
-                <li class="uk-active"><a href="portfolio.html">PORTFOLIO</a></li>
+                <li class="uk-active uk-text-large"><a href="portfolio.html">PORTFOLIO</a></li>
                 <li class="uk-nav-divider"></li>
-                <li class="uk-parent">
-                    <li><a href="https://charrmountain.github.io/">Profile</a></li>
-
+                <li class="uk-parent uk-text-large">
+                    <li><a href="https://charrmountain.github.io/" class="uk-parent uk-text-large">Profile</a></li>
                 </li>
-                <li class="uk-nav-header">Contact</li>
-                <li><a href="mailto:charr.mt@gmail.com"><span class="uk-margin-small-right" ></span><ion-icon name="mail-outline"></ion-icon>   Mail</a></li>
-                <li><a href="https://github.com/charrmountain"><span class="uk-margin-small-right" ></span><ion-icon name="logo-github"></ion-icon>   GitHub</a></li>
-                <li><a href="https://www.linkedin.com/in/charlotte-mountain-b91a7059/"><span class="uk-margin-small-right" ></span><ion-icon name="logo-linkedin"></ion-icon>   LinkedIn</a></li>
-                <li><a href="https://www.instagram.com/charrmountain/?hl=en"><span class="uk-margin-small-right" ></span><ion-icon name="logo-instagram"></ion-icon>   Instagram</a></li>
-                <li><a href="https://www.facebook.com/charlotte.mountain.2"><span class="uk-margin-small-right" ></span><ion-icon name="logo-facebook"></ion-icon>   Facebook</a></li>
-            </ul>
+
+                <li class="uk-active uk-text-large"><a href="portfolio.html">CONTACT</a></li>
+                <li class="uk-nav-divider"></li>
+                <a href="mailto:charr.mt@gmail.com" class="uk-parent uk-text-large"><span class="uk-margin-small-right" ></span><ion-icon name="mail-outline"></ion-icon></a>
+                <a href="https://github.com/charrmountain" class="uk-parent uk-text-large"><span class="uk-margin-small-right" ></span><ion-icon name="logo-github"></ion-icon></a>
+                <a href="https://www.linkedin.com/in/charlotte-mountain-b91a7059/" class="uk-parent uk-text-large"><span class="uk-margin-small-right" ></span><ion-icon name="logo-linkedin"></ion-icon></a>
+                <a href="https://www.instagram.com/charrmountain/?hl=en" class="uk-parent uk-text-large"><span class="uk-margin-small-right" ></span><ion-icon name="logo-instagram"></ion-icon></a>
+                <a href="https://www.facebook.com/charlotte.mountain.2" class="uk-parent uk-text-large"><span class="uk-margin-small-right" ></span><ion-icon name="logo-facebook"></ion-icon></a>
         </div>
+        </ul>
+    </div>
     </div>
     <br><br>
 
@@ -60,7 +63,7 @@
             <div class="uk-first-column">
                 <div class="uk-card-body">
                     <h3 class="uk-card-title">
-                        <a href="https://charrmountain.github.io/a-day-out/" target="_blank" class="uk-list uk-link-text" style="text-decoration: none;">A Day Out</a>
+                        <a href="https://charrmountain.github.io/a-day-out/" target="_blank" class="uk-list uk-link-text" id="title">A Day Out</a>
                     </h3>
                     <p>
                         An arts education application utilizing the Metropolitan Museum of Art's collections
@@ -89,10 +92,10 @@
             <div class="">
                 <div class="uk-card-body">
                     <h3 class="uk-card-title">
-                        <a href="https://evening-thicket-44264.herokuapp.com/" target="_blank" class="uk-list uk-link-text" style="text-decoration: none;">Burger Devour</a>
+                        <a href="https://evening-thicket-44264.herokuapp.com/" target="_blank" class="uk-list uk-link-text" id="title">Burger Devour</a>
                     </h3>
                     <p>
-                        An entertaining application that allows the user to create & devour burgers
+                        An entertaining application that allows the user to create and devour burgers
                     </p>
                     <p class="uk-margin-remove">
                         <a href="https://github.com/charrmountain/burger/" target="_blank" class="uk-link-muted" style="text-decoration: none;">
@@ -114,7 +117,7 @@
             <div class="">
                 <div class="uk-card-body">
                     <h3 class="uk-card-title">
-                        <a href="https://blooming-forest-27574.herokuapp.com/" target="_blank" class="uk-list uk-link-text" style="text-decoration: none;">Note Taker</a>
+                        <a href="https://blooming-forest-27574.herokuapp.com/" target="_blank" class="uk-list uk-link-text" id="title">Note Taker</a>
                     </h3>
                     <p> An application that can be used to write, save, and delete notes.</p>
                     <p class="uk-margin-remove">
@@ -137,7 +140,7 @@
             <div class="uk-first-column">
                 <div class="uk-card-body">
                     <h3 class="uk-card-title">
-                        <a href="https://charrmountain.github.io/weather-forecast/" target="_blank" class="uk-list uk-link-text" style="text-decoration: none;">Weather Dashboard</a>
+                        <a href="https://charrmountain.github.io/weather-forecast/" target="_blank" class="uk-list uk-link-text" id="title">Weather Dashboard</a>
                     </h3>
                     <p>
                         Weather dashboard that will retrieve a city's current weather and forecast from the user's choice
@@ -162,7 +165,7 @@
             <div class="">
                 <div class="uk-card-body">
                     <h3 class="uk-card-title">
-                        <a href="https://charrmountain.github.io/work-day-scheduler" target="_blank" class="uk-list uk-link-text" style="text-decoration: none;">Day Planner</a>
+                        <a href="https://charrmountain.github.io/work-day-scheduler" target="_blank" class="uk-list uk-link-text" id="title">Day Planner</a>
                     </h3>
                     <p>A daily work planner that displays hourly storable sections that changes color to display past, current, and future hours</p>
                     <p class="uk-margin-remove">

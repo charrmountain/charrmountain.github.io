@@ -20,6 +20,7 @@
 </head>
 
 <body>
+
     <!--Jumbotron-->
     <div class="uk-cover-container uk-height-medium">
         <div class="uk-height-medium uk-flex uk-flex-center uk-flex-middle uk-background-cover uk-light" data-src="images/mountain.jpg" data-srcset="images/mountain.jpg 650w,
@@ -32,25 +33,27 @@
     <nav class="uk-navbar-container" uk-navbar>
         <button class="uk-navbar-toggle" uk-navbar-toggle-icon uk-toggle="target: #offcanvas-nav"></button>
     </nav>
-    <div id="offcanvas-nav" uk-offcanvas="overlay: true">
+    <div id="offcanvas-nav" class="uk-dark" uk-offcanvas="overlay: true">
         <div class="uk-offcanvas-bar">
 
             <ul class="uk-nav uk-nav-default">
                 <button class="uk-offcanvas-close" type="button" uk-close></button>
-                <li class="uk-active"><a href="https://charrmountain.github.io/">PROFILE</a></li>
+                <li class="uk-active uk-text-large"><a href="https://charrmountain.github.io/">PROFILE</a></li>
                 <li class="uk-nav-divider"></li>
-                <li class="uk-parent">
-                    <li><a href="portfolio.html">Portfolio</a></li>
-
+                <li class="uk-parent uk-text-large">
+                    <li><a href="portfolio.html" class="uk-parent uk-text-large">Portfolio</a></li>
                 </li>
-                <li class="uk-nav-header">Contact</li>
-                <li><a href="mailto:charr.mt@gmail.com"><span class="uk-margin-small-right" ></span><ion-icon name="mail-outline"></ion-icon>   Mail</a></li>
-                <li><a href="https://github.com/charrmountain"><span class="uk-margin-small-right" ></span><ion-icon name="logo-github"></ion-icon>   GitHub</a></li>
-                <li><a href="https://www.linkedin.com/in/charlotte-mountain-b91a7059/"><span class="uk-margin-small-right" ></span><ion-icon name="logo-linkedin"></ion-icon>   LinkedIn</a></li>
-                <li><a href="https://www.instagram.com/charrmountain/?hl=en"><span class="uk-margin-small-right" ></span><ion-icon name="logo-instagram"></ion-icon>   Instagram</a></li>
-                <li><a href="https://www.facebook.com/charlotte.mountain.2"><span class="uk-margin-small-right" ></span><ion-icon name="logo-facebook"></ion-icon>   Facebook</a></li>
-            </ul>
+
+                <li class="uk-active uk-text-large"><a href="portfolio.html">CONTACT</a></li>
+                <li class="uk-nav-divider"></li>
+                <a href="mailto:charr.mt@gmail.com" class="uk-parent uk-text-large"><span class="uk-margin-small-right" ></span><ion-icon name="mail-outline"></ion-icon></a>
+                <a href="https://github.com/charrmountain" class="uk-parent uk-text-large"><span class="uk-margin-small-right" ></span><ion-icon name="logo-github"></ion-icon></a>
+                <a href="https://www.linkedin.com/in/charlotte-mountain-b91a7059/" class="uk-parent uk-text-large"><span class="uk-margin-small-right" ></span><ion-icon name="logo-linkedin"></ion-icon></a>
+                <a href="https://www.instagram.com/charrmountain/?hl=en" class="uk-parent uk-text-large"><span class="uk-margin-small-right" ></span><ion-icon name="logo-instagram"></ion-icon></a>
+                <a href="https://www.facebook.com/charlotte.mountain.2" class="uk-parent uk-text-large"><span class="uk-margin-small-right" ></span><ion-icon name="logo-facebook"></ion-icon></a>
         </div>
+        </ul>
+    </div>
     </div>
     <br><br>
     <div class="uk-container">
@@ -61,13 +64,31 @@
             </div>
             <div>
                 <div class="uk-card-body">
-                    <p>Web Developer leveraging a background in customer service to build a more intuitive user experience on the web. Recently earned a Certificate in Full Stack Development from the University of California San Diego Extension, with developed
-                        skills in JavaScript, CSS, Node.js, JQuery, and responsive web design. With each project, my aim is to best engage my audience for an impactful user experience.<br><br> I enjoy reading, trying out a new recipe, or attending live
-                        shows. At the end of the day, I'm really trying to be the best cat mom I can be.<br><br> I’m excited to leverage my skills in the future as part of a fast-paced, quality-driven team.
-                        <br><br>
-                        <span uk-icon="location"></span> San Diego
-                        <p><a href="./portfolio.html" class="uk-link-muted uk-margin-remove contact" style="color:rgb(105, 105, 105) 2px 2px;"> CHECK THE PROJECTS</a></p>
+
+                    <p class="uk-parent uk-text-large">
+                        <span uk-icon="icon: location; ratio: 2"></span> San Diego</p>
+                    <hr class="uk-nav-divider">
+                    <p>Web Developer leveraging a background in customer service to build a more intuitive user experience on the web.<br><br> Recently earned a Certificate in Full Stack Development from the University of California San Diego Extension,
+                        with developed skills in JavaScript, CSS, Node.js, JQuery, MySQL and responsive web design. With each project, my aim is to best engage my audience for an impactful user experience. Excited to leverage my skills in the future as
+                        part of a fast-paced, quality-driven team!<br><br> I'm really just trying to be the best cat mom I can be.
+                        <a href="#modal-media-image2" uk-toggle><img class="uk-align-center" uk-icon="icon: heart" src="" width="" height="" alt="" uk-img id="image2" /></a>
+                        <div id="modal-media-image2" class="uk-flex-top" uk-modal>
+                            <div class="uk-modal-dialog uk-width-auto uk-margin-auto-vertical">
+                                <button class="uk-modal-close-outside" type="button" uk-close></button>
+                                <img src="./images/kitten.jpeg" id="image2-zoom" alt="" />
+                            </div>
+                        </div>
+
+
+                        <p><a href="./portfolio.html" class="uk-link-muted uk-margin-remove contact" style="text-decoration: none;"> CHECK THE PROJECTS</a></p>
                     </p>
+                    <a href="mailto:charr.mt@gmail.com" style="text-decoration: none;" class="uk-parent uk-text-large uk-link-muted uk-margin-remove contact">
+                        <ion-icon name="mail-outline"></ion-icon>
+                    </a>
+                    <a href="https://github.com/charrmountain" class="uk-link-muted uk-margin-remove contact uk-parent uk-text-large"><span class="uk-margin-small-right" ></span><ion-icon name="logo-github"></ion-icon></a>
+                    <a href="https://www.linkedin.com/in/charlotte-mountain-b91a7059/" class="uk-link-muted uk-margin-remove contact uk-parent uk-text-large"><span class="uk-margin-small-right" ></span><ion-icon name="logo-linkedin"></ion-icon></a>
+                    <a href="https://www.instagram.com/charrmountain/?hl=en" class="uk-parent uk-text-large uk-link-muted uk-margin-remove contact"><span class="uk-margin-small-right" ></span><ion-icon name="logo-instagram"></ion-icon></a>
+                    <a href="https://www.facebook.com/charlotte.mountain.2" class="uk-parent uk-text-large uk-link-muted uk-margin-remove contact"><span class="uk-margin-small-right" ></span><ion-icon name="logo-facebook"></ion-icon></a>
                     <div uk-lightbox>
                         <a class="uk-button uk-button-default" href="/images/resume.jpg" data-caption="Charlotte Mountain's Resume">Resume</a>
                     </div>

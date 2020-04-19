@@ -3,6 +3,21 @@ body,
     font-family: 'Roboto', sans-serif;
 }
 
+.uk-offcanvas-bar {
+    background-color: #495158;
+    opacity: 0.80;
+}
+
+#image2 {
+    color: grey
+}
+
+#title {
+    text-decoration: none;
+    font-family: 'Satisfy', cursive;
+    font-size: 50px;
+}
+
 
 /* Jumbotron Name*/
 
@@ -14,52 +29,6 @@ body,
     color: #f7f7f7;
     text-shadow: 6px 6px #7091d8;
     width: 100%
-}
-
-
-/*Jumbotron Background Image */
-
-.JumboHeaderImg {
-    background-image: url("./images/mountain.jpg");
-    background-repeat: no-repeat;
-    width: 100%;
-}
-
-
-/* Contact Font Change */
-
-.contact:hover {
-    text-decoration: none;
-    color: black;
-}
-
-#day-out-img {
-    opacity: .5;
-    width: 575px;
-}
-
-#weather-img {
-    width: 575px;
-    opacity: .5;
-}
-
-#NYT-img {
-    width: 575px;
-    opacity: .5;
-}
-
-#myCarousel {
-    width: 575px;
-    margin: auto 0;
-}
-
-@media screen and (max-height: 450px) {
-    .sidenav {
-        padding-top: 15px;
-    }
-    .sidenav a {
-        font-size: 18px;
-    }
 }
 
 
