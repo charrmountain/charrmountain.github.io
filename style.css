@@ -1,64 +1,72 @@
-body,
-.uk-active {
-    font-family: 'Roboto', sans-serif;
-}
-
-.uk-offcanvas-bar {
-    background-color: #495158;
-    opacity: 0.80;
-}
-
-#image2 {
-    color: grey
-}
-
-.uk-container {
-    margin-top: 100px;
-    margin: 100px;
-    margin-bottom: 100px;
-}
-
-#bottom-icon {
-    padding-top: 0px;
-    padding-bottom: 0px;
-    margin: 15px;
-    margin-bottom: 0px;
-    font-size: 40px;
-}
-
-#title {
-    text-decoration: none;
-    font-family: 'Satisfy', cursive;
-    font-size: 50px;
-}
-
-.uk-background-fixed {
-    background-size: cover;
-    background-repeat: no-repeat;
-}
-
-
-/* Jumbotron Name*/
-
-.display-4.name {
-    font-family: 'Satisfy', cursive;
-    font-weight: bold;
-    font-size: 50px;
-    text-align: center;
-    color: #074791;
-    text-shadow: 2px 2px #7091d8;
-    padding-right: 75px;
-    padding-top: 5px;
-    margin-bottom: 0px;
-    padding-bottom: 0px;
-    width: 100%
-}
-
-
-/* Phone edits*/
-
-@media (max-width: 580px) {
-    .display-4.name {
-        font-size: 25px;
-    }
-}
+                body,
+            .uk-active {
+                font-family: 'Roboto', sans-serif;
+            }
+            
+            .uk-offcanvas-bar {
+                background-color: #495158;
+                opacity: 0.80;
+            }
+            
+            #image2 {
+                color: grey
+            }
+            
+            .uk-container {
+                margin-top: 100px;
+                margin: 100px;
+                margin-bottom: 100px;
+            }
+            
+            #top-icon {
+                padding-top: 0px;
+                padding-bottom: 10px;
+                margin: 15px;
+                margin-bottom: 0px;
+                font-size: 25px;
+                text-decoration: none;
+            }
+            
+            #bottom-icon {
+                padding-top: 0px;
+                padding-bottom: 0px;
+                margin: 15px;
+                margin-bottom: 0px;
+                font-size: 40px;
+            }
+            
+            #title {
+                text-decoration: none;
+                font-family: 'Satisfy', cursive;
+                font-size: 50px;
+            }
+            
+            #bottom-connect {
+                font-family: 'Satisfy', cursive;
+                padding-top: 0px;
+                padding-bottom: 0px;
+                margin: 15px;
+                margin-bottom: 0px;
+                font-size: 40px;
+                color: grey
+            }
+            
+            .uk-background-fixed {
+                background-size: cover;
+                background-repeat: no-repeat;
+            }
+            /* Jumbotron Name*/
+            
+            .display-4.name {
+                font-family: 'Satisfy', cursive;
+                font-weight: bold;
+                font-size: 125px;
+                text-align: center;
+                color: #074791;
+                text-shadow: 2px 2px #7091d8;
+                /* Phone edits*/
+                @media (max-width: 580px) {
+                    .display-4.name {
+                        font-size: 25px;
+                    }
+                }
