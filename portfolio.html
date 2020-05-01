@@ -21,47 +21,49 @@
 </head>
 
 <body>
+    <div class="uk-cover-container" uk-height-viewport>
+        <img src="./images/mountain7.jpg" alt="" uk-cover id="aerial-image">
 
-    <!--Jumbotron-->
-    <div class="uk-cover-container uk-height-medium">
-        <div class="uk-height-medium uk-flex uk-flex-center uk-flex-middle uk-background-cover uk-light" data-src="images/mountain.jpg" data-srcset="images/mountain.jpg 650w,
-    images/mountain.jpg 1300w" data-sizes="(min-width: 650px) 650px, 100vw" uk-img>
-            <h1 class="display-4 name">Charlotte Mountain<br></h1>
+        <!-- TOP NAV -->
+        <div uk-sticky="sel-target: .uk-navbar-container; cls-active: uk-navbar-sticky; top: #transparent-sticky-navbar">
+            <nav class="uk-navbar-container" uk-navbar="dropbar: true;" id="navBar" style="position: relative; z-index: 980;">
+                <div class="uk-navbar-right">
+
+                    <ul class="uk-navbar-nav">
+                        <!-- <ion-icon id="bottom-icon" name="finger-print-outline"></ion-icon> -->
+                        <div class="uk-animation-toggle" tabindex="0">
+                            <li>
+                                <a href="./aboutme.html" id="top-icon" class="uk-link-muted uk-parent uk-text-large uk-align-left uk-animation-scale-up">
+                                    ABOUT ME
+                                </a>
+                            </li>
+                        </div>
+                        <div class="uk-animation-toggle" tabindex="0">
+                            <li>
+                                <a href="./skills.html" id="top-icon" class="uk-link-muted uk-parent uk-text-large uk-align-right uk-animation-scale-up">
+                                    SKILLS
+                                </a>
+                            </li>
+                        </div>
+                        <div class="uk-animation-toggle" tabindex="0">
+                            <li>
+                                <a href="./portfolio.html" id="top-icon" class="uk-link-muted uk-parent uk-text-large uk-align-center uk-animation-scale-up">
+                                   PORTFOLIO
+                                </a>
+                            </li>
+                        </div>
+                        <div class="uk-animation-toggle" tabindex="0">
+                            <li>
+                                <a href="./chat.html" id="top-icon" class="uk-link-muted uk-parent uk-text-large uk-align-center uk-animation-scale-up">
+                                    CHAT
+                                </a>
+                            </li>
+                        </div>
+                    </ul>
+
+                </div>
+            </nav>
         </div>
-    </div>
-
-
-    <nav class="uk-navbar-container" uk-navbar>
-        <button class="uk-navbar-toggle" uk-navbar-toggle-icon uk-toggle="target: #offcanvas-nav"></button>
-    </nav>
-    <div id="offcanvas-nav" class="uk-dark" uk-offcanvas="overlay: true">
-        <div class="uk-offcanvas-bar">
-
-            <ul class="uk-nav uk-nav-default">
-                <button class="uk-offcanvas-close" type="button" uk-close></button>
-                <li class="uk-active uk-text-large"><a href="portfolio.html">PORTFOLIO</a></li>
-                <li class="uk-nav-divider"></li>
-                <li class="uk-parent uk-text-large">
-                    <li><a href="https://charrmountain.github.io/" class="uk-parent uk-text-large">Profile</a></li>
-                </li>
-
-                <li class="uk-active uk-text-large">
-                    <a href="#"></a>CONTACT</a>
-                </li>
-                <li class="uk-nav-divider"></li>
-                <a href="mailto:charr.mt@gmail.com" class="uk-parent uk-text-large"><span class="uk-margin-small-right" ></span><ion-icon name="mail-outline"></ion-icon></a>
-                <a href="https://github.com/charrmountain" class="uk-parent uk-text-large"><span class="uk-margin-small-right" ></span><ion-icon name="logo-github"></ion-icon></a>
-                <a href="https://www.linkedin.com/in/charlotte-mountain-b91a7059/" class="uk-parent uk-text-large"><span class="uk-margin-small-right" ></span><ion-icon name="logo-linkedin"></ion-icon></a>
-                <a href="https://www.instagram.com/charrmountain/?hl=en" class="uk-parent uk-text-large"><span class="uk-margin-small-right" ></span><ion-icon name="logo-instagram"></ion-icon></a>
-                <a href="https://www.facebook.com/charlotte.mountain.2" class="uk-parent uk-text-large"><span class="uk-margin-small-right" ></span><ion-icon name="logo-facebook"></ion-icon></a>
-                <a href="./images/resume20.pdf" class="uk-parent uk-text-large"><span class="uk-margin-small-right" ></span><ion-icon name="document-text-outline"></ion-icon></a>
-
-        </div>
-        </ul>
-    </div>
-    </div>
-    <br><br>
-
     <!-- A DAY OUT -->
     <div class="uk-container">
         <div class="uk-card uk-card-default uk-grid-collapse uk-child-width-1-2@s uk-margin uk-grid" uk-grid="">
@@ -200,8 +202,64 @@
             </div>
         </div>
 
+        <div uk-sticky="sel-target: .uk-navbar-container; cls-active: uk-navbar-sticky; bottom: #transparent-sticky-navbar">
+            <nav class="uk-navbar-container uk-position-fixed uk-position-bottom" uk-navbar="dropbar: true;" id="navBar" style="position: relative; z-index: 980;">
+                <div class="uk-navbar-center">
+                    <ul class="uk-navbar-nav">
+
+                        <div>
+                            <li>
+
+                            </li>
+                        </div>
+                        <div class="uk-animation-toggle" tabindex="0">
+                            <li>
+                                <a href="https://github.com/charrmountain" uk-tooltip="title: GitHub; delay: 100;" id="bottom-icon" class="uk-link-muted uk-parent uk-text-large uk-align-left uk-animation-scale-up">
+                                    <ion-icon name="logo-github"></ion-icon>
+                                </a>
+                            </li>
+                        </div>
+                        <div class="uk-animation-toggle" tabindex="0">
+                            <li>
+                                <a href="https://www.linkedin.com/in/charlotte-mountain-b91a7059/" uk-tooltip="title: LinkedIn; delay: 100;" id="bottom-icon" class="uk-link-muted uk-parent uk-text-large uk-align-right uk-animation-scale-up">
+                                    <ion-icon name="logo-linkedin"></ion-icon>
+                                </a>
+                            </li>
+                        </div>
+                        <div class="uk-animation-toggle" tabindex="0">
+                            <li>
+                                <a href="https://www.instagram.com/charrmountain/?hl=en" uk-tooltip="title: Instagram; delay: 100;" id="bottom-icon" class="uk-link-muted uk-parent uk-text-large uk-align-center uk-animation-scale-up">
+                                    <ion-icon name="logo-instagram"></ion-icon>
+                                </a>
+                            </li>
+                        </div>
+                        <div class="uk-animation-toggle" tabindex="0">
+                            <li>
+                                <a href="https://www.instagram.com/charrmountain/?hl=en" uk-tooltip="title: Facebook; delay: 100;" id="bottom-icon" class="uk-link-muted uk-parent uk-text-large uk-align-center uk-animation-scale-up">
+                                    <ion-icon name="logo-facebook"></ion-icon>
+                                </a>
+                            </li>
+                        </div>
+                        <div class="uk-animation-toggle" tabindex="0">
+                            <li>
+                                <a href="mailto:charr.mt@gmail.com" uk-tooltip="title: Mail; delay: 100;" id="bottom-icon" class="uk-link-muted uk-parent uk-text-large uk-align-center uk-animation-scale-up">
+                                    <ion-icon name="mail-outline"></ion-icon>
+                                </a>
+                            </li>
+                        </div>
+
+                    </ul>
+                </div>
+            </nav>
+        </div>
+
+
+
     </div>
-    <br><br>
+
+
+    </div>
+
 
 
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
