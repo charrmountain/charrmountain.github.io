@@ -95,6 +95,11 @@
              margin-bottom: 0px;
          }
 
+         #portfio{
+             margin:100px;
+             margin-top: 50px;
+         }
+
          #chat-title{
            font-family: 'Satisfy', cursive;
             font-weight: bold;
@@ -129,6 +134,11 @@
  }
 
         @media (max-width: 960px) {
+
+            #portfio{
+                margin:25px;
+
+            }
             #location{
                 font-size: 15px;
             }
