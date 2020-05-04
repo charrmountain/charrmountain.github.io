@@ -103,6 +103,10 @@
             font-family: 'Satisfy', cursive;
             font-size: 40px;
         }
+
+        #profile-card{
+            margin-bottom:50px;
+        }
         
         #bottom-connect {
             font-family: 'Satisfy', cursive;
@@ -154,10 +158,39 @@
             padding-bottom: 0px;
         }
 
+        #profile-title{
+            font-family: 'Satisfy', cursive;
+             font-weight: bold;
+             font-size: 75px;
+             color:white;
+             text-align: center;
+             text-shadow: 2px 2px grey;
+             margin: 0px;
+             padding: 0px;
+         }
+
         #chat-shell{
             background-color: rgba(128, 128, 128, 0);
             padding-left: 0px;
             margin-left: 20px;
+            margin-bottom: 0px;
+        }
+
+        #prof{
+            padding-left: 0px;
+            margin-top: 0px;
+            padding-top: 0px;
+            margin-left: 0px;
+            margin-bottom: 0px;
+        }
+
+        #prof-shell{
+            background-color: rgba(128, 128, 128, 0);
+            padding-left: 0px;
+            margin-top: 0px;
+            padding-top: 0px;
+            margin-left: 20px;
+            margin-right: 20px;
             margin-bottom: 0px;
         }
 #port{
