@@ -193,6 +193,28 @@
             margin-right: 20px;
             margin-bottom: 0px;
         }
+
+        #contact{
+            padding-left: 0px;
+            margin-top: 0px;
+            padding-top: 0px;
+            margin-left: 0px;
+            margin-bottom: 0px;
+        }
+
+        #send{
+            background-color: white;
+        }
+
+        #contact-shell{
+            background-color: rgba(128, 128, 128, 0);
+            padding-left: 0px;
+            margin-top: 0px;
+            padding-top: 0px;
+            margin-left: 250px;
+            margin-right: 250px;
+            margin-bottom: 0px;
+        }
 #port{
    color:white;
    text-decoration:none;
@@ -264,7 +286,14 @@
                 padding-bottom: 0px;
             }
 
+            #contact-shell{
+                margin-left: 0px;
+                margin-right: 0px;
+            }
 
+            #contact{
+                margin:0px;
+            }
 
             #connect{
                 margin:0px;
