@@ -40,13 +40,20 @@
         
         #top-icon {
             padding-top: 0px;
-            padding-bottom: 10px;
-            margin: 15px;
-            margin-bottom: 0px;
-            font-size: 25px;
+            margin: 25px;
+            font-size: 15px;
+            margin-right: 45px;
             text-decoration: none;
         }
         
+        #contact-icon {
+            padding-top: 0px;
+            margin: 25px;
+            margin-right: 100px;
+            font-size: 15px;
+            text-decoration: none;
+        }
+
         #bottom-icon {
             padding-top: 0px;
             margin: 15px;
@@ -133,6 +140,15 @@
             text-shadow: 2px 2px grey;
             margin-top: 100px;
             margin-left: 50px;
+            margin-bottom: 0px;
+         }
+
+         .developer{
+            font-size: 20px;
+            color:white;
+            text-align: left;
+            margin-top: 0px;
+            margin-left: 250px;
          }
 
          #chat{
@@ -144,7 +160,7 @@
 
          #portfio{
              margin:0px;
-             margin-top: 20px;
+             margin-top: 10px;
          }
 
          #chat-title{
@@ -176,13 +192,6 @@
             margin-bottom: 0px;
         }
 
-        #prof{
-            padding-left: 0px;
-            margin-top: 0px;
-            padding-top: 0px;
-            margin-left: 0px;
-            margin-bottom: 0px;
-        }
 
         #prof-shell{
             background-color: rgba(128, 128, 128, 0);
@@ -192,13 +201,23 @@
             margin-left: 20px;
             margin-right: 20px;
             margin-bottom: 0px;
+            padding-bottom: 0px;
         }
 
-        #contact{
+        #port-shell{
+            background-color: rgba(128, 128, 128, 0);
             padding-left: 0px;
             margin-top: 0px;
             padding-top: 0px;
-            margin-left: 0px;
+            margin-left: 20px;
+            margin-right: 20px;
+            margin-bottom: 0px;
+            padding-bottom: 0px;
+        }
+
+        #prof{
+            margin-top: 0px;
+            padding-top: 0px;
             margin-bottom: 0px;
         }
 
@@ -216,6 +235,7 @@
             margin-bottom: 0px;
         }
 #port{
+    padding-top: 0px;
    color:white;
    text-decoration:none;
 }
@@ -269,6 +289,11 @@
             #paw{
                 font-size: 15px;
             }
+
+            .developer{
+                font-size: 20px;
+                margin-left: 75px;
+             }
 
             .display-4{
                 font-size: 85px;
