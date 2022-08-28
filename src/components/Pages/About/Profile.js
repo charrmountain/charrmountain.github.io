@@ -1,8 +1,11 @@
 import React, { Component } from "react";
-import { Grid, Image, Icon, Button, Divider } from "semantic-ui-react";
+import { Grid, Image, Divider } from "semantic-ui-react";
 import AOS from "aos";
 import charlotte from "./images/charlotte.jpg";
 import "aos/dist/aos.css";
+import resume  from "../../../docs/Resume2022.pdf";
+import { IconContext } from "react-icons";
+import { BsDownload } from "react-icons/bs";
 
 export default class Profile extends Component {
   componentDidMount() {
@@ -72,10 +75,15 @@ export default class Profile extends Component {
                   the future as part of a fast-paced, quality-driven team!
                 </p>
                 <p>Just trying to be the best cat mom I can be.</p>
-                <Button size="tiny" className="resume" inverted basic>
-                  Resume
-                  <Icon name="download" size="small" />
-                </Button>
+                <a href={resume} download="Charlotte Mountain Resume">
+                <button className="ui icon button btn btn-reverse btn-arrow">
+                  <span>Resume
+                  <IconContext.Provider value={{ size: 20 }}>
+                    <BsDownload />
+                  </IconContext.Provider>
+                  </span>
+                </button>
+                </a>
                 <Divider inverted />
               </div>
             </Grid.Column>

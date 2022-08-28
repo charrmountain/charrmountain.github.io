@@ -10,3 +10,21 @@
 #footer .socials {
   padding: 1.5em 0em 0em;
 }
+
+#footer button.icon {
+  margin: 0px 20px;
+  background-color: transparent;
+  color: #ffffff !important;
+  border: solid 1px #ffffff;
+}
+
+#footer button.icon:hover {
+  background-color: rgba(9, 18, 34, 1);
+}
+#footer button.icon svg{
+  transition: ease-in-out .5s;
+}
+#footer button.icon:hover svg{
+  transform: scale(1.5);
+}
+
