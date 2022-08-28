@@ -1,0 +1,25 @@
+#pageTitle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+
+#pageTitle .title {
+  font-family: "Manrope", sans-serif;
+  color: white;
+  font-size: 5rem;
+  font-weight: 400;
+}
+
+#pageTitle .titleImage {
+  max-height: 125px;
+}
+
+#pageTitle .titleImage.first {
+  margin-right: 20px;
+}
+
+#pageTitle .titleImage.second {
+  margin-left: 20px;
+}

@@ -1,0 +1,12 @@
+#footer {
+  background-color: rgba(6, 12, 23, 1);
+  padding: 3em 0em;
+}
+
+#footer * {
+  font-family: "Manrope";
+}
+
+#footer .socials {
+  padding: 1.5em 0em 0em;
+}

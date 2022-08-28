@@ -1,0 +1,329 @@
+#portfolio {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(9, 18, 34, 1);
+}
+
+#portfolio * {
+  font-family: "Manrope";
+}
+
+#portfolio .wrapper {
+  height: 100%;
+  width: 100%;
+  padding-top: 6rem;
+}
+
+#portfolio .wrapper .tickerMenu {
+  width: 20% !important;
+}
+
+#portfolio .wrapper .tickerMenu .projects {
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+#portfolio .projects_grid {
+  padding-top: 3rem;
+}
+
+#portfolio .wrapper .ticker {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+.gitHubPort {
+  color: gray;
+}
+
+.playPort {
+  color: gray;
+  padding-left: 0.5rem;
+  padding-top: 0.5rem;
+  font-size: 1rem;
+}
+
+.gitHubPort:hover {
+  color: darkgray;
+}
+
+.playPort:hover {
+  color: darkgray;
+}
+
+figure.project {
+  font-family: "Playfair Display", Arial, sans-serif;
+  position: relative;
+  overflow: hidden;
+  margin: 0.5rem;
+  max-height: 320px;
+  width: 550px;
+  color: #000000;
+  text-align: left;
+  font-size: 16px;
+  background-color: #000000;
+}
+figure.project * {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-transition: all 0.35s ease;
+  transition: all 0.35s ease;
+}
+
+figure.project .projectTitle {
+  color: grey;
+  font-size: 22px;
+}
+figure.project .projectSource {
+  display: flex;
+  flex-direction: column;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: grey;
+  font-size: 12px;
+}
+
+figure.project .projectTitle:hover {
+  color: rgba(6, 12, 23, 1);
+}
+figure.project .codingLanguages {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100%;
+  margin: 5px 0px;
+}
+figure.project .codingLanguages svg {
+  color: rgba(200, 200, 200, 0.933);
+  margin: 0px 10px 0px 0px;
+}
+
+figure.project img {
+  max-width: 100%;
+  backface-visibility: hidden;
+}
+figure.project figcaption {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 1;
+  opacity: 1;
+  padding: 30px 10px 30px 0;
+  background-color: #ffffff;
+  width: 40%;
+  -webkit-transform: translateX(-150%);
+  transform: translateX(-150%);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+figure.project figcaption:before {
+  position: absolute;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  transform: translateY(-50%);
+  left: 72%;
+  content: "";
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 220px 0 220px 220px;
+  border-color: transparent transparent transparent #ffffff;
+}
+figure.project:after {
+  position: absolute;
+  top: 50%;
+  left: 29%;
+  content: "";
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 0 220px 220px 220px;
+  border-color: transparent transparent rgba(255, 255, 255, 0.5) transparent;
+  -webkit-transform: translateY(50%);
+  transform: translateY(50%);
+  -webkit-transition: all 0.35s ease;
+  transition: all 0.35s ease;
+}
+figure.project h3,
+figure.project p,
+figure.project .demoModal,
+figure.project .codingLanguages,
+figure.project .projectSource {
+  line-height: 1.5em;
+  -webkit-transform: translateX(30px);
+  transform: translateX(30px);
+  margin: 0;
+}
+figure.project h3 {
+  margin: 0 0 0.75rem;
+  line-height: 1.1em;
+  font-weight: 900;
+  font-size: 1.4em;
+  opacity: 0.75;
+}
+figure.project p {
+  font-size: 0.8em;
+}
+figure.project .gitHubPort {
+  position: absolute;
+  bottom: 25px;
+  right: 23%;
+  opacity: 0;
+  z-index: 10;
+}
+figure.project svg.gitHub {
+  color: rgba(255, 255, 255, 0.7);
+  opacity: 0;
+  height: 75px;
+  transition: all 0.5 ease-in-out;
+}
+figure.project svg.gitHub:hover {
+  color: #ffffff;
+}
+
+figure.project:hover img,
+figure.project.hover img {
+  zoom: 1;
+  filter: alpha(opacity=50);
+  -webkit-opacity: 0.5;
+  opacity: 0.5;
+}
+figure.project:hover:after,
+figure.project.hover:after,
+figure.project:hover figcaption,
+figure.project.hover figcaption,
+figure.project:hover .gitHubPort,
+figure.project.hover .gitHubPort,
+figure.project:hover svg.gitHub,
+figure.project.hover svg.gitHub {
+  -webkit-transform: translateX(0);
+  transform: translateX(0);
+  opacity: 1;
+}
+
+figure.project .gitHubWrapper {
+  position: relative;
+  font-size: 40px;
+  color: #e6e6e6;
+  width: 75px;
+  height: 75px;
+  line-height: 75px;
+  display: inline-block;
+  text-align: center;
+  -webkit-perspective: 50em;
+  perspective: 50em;
+  text-decoration: none;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+figure.project .gitHubWrapper:after {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  border: 4px solid #e6e6e6;
+  content: "";
+  z-index: -1;
+  border-radius: 50%;
+}
+figure.project .gitHubWrapper:before {
+  color: #fff;
+}
+figure.project .gitHubWrapper:before,
+figure.project .gitHubWrapper:after {
+  -webkit-transition: all 0.45s ease-in-out;
+  transition: all 0.45s ease-in-out;
+}
+figure.project .gitHubWrapper:hover,
+figure.project .gitHubWrapper:active,
+figure.project .gitHubWrapper.hover {
+  color: rgba(6, 12, 23, 1);
+}
+figure.project .gitHubWrapper:hover:after,
+figure.project .gitHubWrapper:active:after,
+figure.project .gitHubWrapper.hover:after {
+  border-color: transparent rgba(6, 12, 23, 1);
+  -webkit-transform: rotate(360deg);
+  transform: rotate(360deg);
+}
+figure.project .about {
+  margin: 0.75rem 0px 0px;
+}
+figure.project .footer {
+  display: flex;
+  margin: 1.5rem 0px;
+}
+
+figure.project .demoModal {
+  background-color: #606060;
+  border: none;
+  color: #ffffff;
+  cursor: pointer;
+  display: inline-block;
+  font-family: "BenchNine", Arial, sans-serif;
+  font-size: 1em;
+  font-size: 16px;
+  line-height: 1em;
+  outline: none;
+  padding: 10px 20px;
+  position: relative;
+  text-transform: uppercase;
+  font-weight: 700;
+  width: 45%;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+figure.project .demoModal.demo {
+  margin-left: 15px;
+}
+
+figure.project .demoModal:before,
+figure.project .demoModal:after {
+  border-color: transparent;
+  -webkit-transition: all 0.25s;
+  transition: all 0.25s;
+  border-style: solid;
+  border-width: 0;
+  content: "";
+  height: 24px;
+  position: absolute;
+  width: 24px;
+}
+
+figure.project .demoModal:before {
+  border-color: #606060;
+  border-top-width: 2px;
+  left: 0px;
+  top: -5px;
+}
+
+figure.project .demoModal:after {
+  border-bottom-width: 2px;
+  border-color: #606060;
+  bottom: -5px;
+  right: 0px;
+}
+
+figure.project .demoModal:hover,
+figure.project .demoModal.hover {
+  background-color: #606060;
+}
+
+figure.project .demoModal:hover:before,
+figure.project .demoModal.hover:before,
+figure.project .demoModal:hover:after,
+figure.project .demoModal.hover:after {
+  height: 100%;
+  width: 100%;
+}

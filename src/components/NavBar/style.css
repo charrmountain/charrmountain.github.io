@@ -1,0 +1,49 @@
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap");
+.siteHeader {
+  z-index: 100;
+  position: fixed;
+  width: 100%;
+  transition: all 1s ease-in-out;
+}
+
+.siteHeader.menuSticky {
+  background-color: rgba(6, 12, 23, 1) !important;
+  box-shadow: 0 2px 8px rgb(0 0 0 / 20%);
+  transition: all 1s ease-in-out;
+}
+
+.siteHeader .menu {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  align-content: center;
+}
+
+.siteHeader .menu .item {
+  height: 100%;
+}
+
+.siteHeader .logo {
+  height: 80px;
+}
+
+.siteHeader a {
+  color: lightgray;
+  text-decoration: none;
+  font-size: 1rem;
+  letter-spacing: 0.2rem;
+  font-family: "Manrope", sans-serif;
+}
+
+.siteHeader a:active,
+.siteHeader a:hover {
+  color: white;
+}
+
+@media (max-width: 428px) {
+  a {
+    font-size: 15px;
+    margin: 0px;
+    padding: 0px;
+  }
+}

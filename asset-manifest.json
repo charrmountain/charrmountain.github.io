@@ -1,0 +1,36 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.b0ed51c3.chunk.css",
+    "main.js": "/portfolio/static/js/main.e2ddaf5b.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.e2ddaf5b.chunk.js.map",
+    "runtime-main.js": "/portfolio/static/js/runtime-main.f4f2abbf.js",
+    "runtime-main.js.map": "/portfolio/static/js/runtime-main.f4f2abbf.js.map",
+    "static/js/2.52c94536.chunk.js": "/portfolio/static/js/2.52c94536.chunk.js",
+    "static/js/2.52c94536.chunk.js.map": "/portfolio/static/js/2.52c94536.chunk.js.map",
+    "index.html": "/portfolio/index.html",
+    "precache-manifest.38c4ed8b16bbcc4be787d38e52ed4cd1.js": "/portfolio/precache-manifest.38c4ed8b16bbcc4be787d38e52ed4cd1.js",
+    "service-worker.js": "/portfolio/service-worker.js",
+    "static/css/main.b0ed51c3.chunk.css.map": "/portfolio/static/css/main.b0ed51c3.chunk.css.map",
+    "static/js/2.52c94536.chunk.js.LICENSE.txt": "/portfolio/static/js/2.52c94536.chunk.js.LICENSE.txt",
+    "static/media/ADayOut.gif": "/portfolio/static/media/ADayOut.074065d8.gif",
+    "static/media/Burger.gif": "/portfolio/static/media/Burger.d49a4b72.gif",
+    "static/media/burger.jpg": "/portfolio/static/media/burger.2aa804db.jpg",
+    "static/media/charlotte.jpg": "/portfolio/static/media/charlotte.064adeba.jpg",
+    "static/media/met.jpg": "/portfolio/static/media/met.80d9f5d2.jpg",
+    "static/media/style.css": "/portfolio/static/media/mountain.2ae4c837.jpg",
+    "static/media/note.jpg": "/portfolio/static/media/note.134533f0.jpg",
+    "static/media/noteDemo.gif": "/portfolio/static/media/noteDemo.e6250edb.gif",
+    "static/media/sat.jpg": "/portfolio/static/media/sat.0e60ff97.jpg",
+    "static/media/weather.gif": "/portfolio/static/media/weather.191dbfec.gif",
+    "static/media/weather.jpg": "/portfolio/static/media/weather.d323c948.jpg",
+    "static/media/whatsup.gif": "/portfolio/static/media/whatsup.c6f3517e.gif",
+    "static/media/work.jpg": "/portfolio/static/media/work.07c9a5ca.jpg",
+    "static/media/work.gif": "/portfolio/static/media/work.1a3a635e.gif"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.f4f2abbf.js",
+    "static/js/2.52c94536.chunk.js",
+    "static/css/main.b0ed51c3.chunk.css",
+    "static/js/main.e2ddaf5b.chunk.js"
+  ]
+}

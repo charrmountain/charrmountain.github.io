@@ -1,0 +1,100 @@
+.scroll.is-active {
+  opacity: 1;
+}
+
+.scroll {
+  flex-direction: column;
+  gap: 1rem;
+  right: 6rem;
+  bottom: 3.6rem;
+  position: fixed;
+  right: 6rem;
+  bottom: 3.6rem;
+  opacity: 0;
+  z-index: 3;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: end;
+  -ms-flex-align: end;
+  align-items: flex-end;
+  gap: 1rem;
+  pointer-events: none;
+  -webkit-transition: 0.4s ease;
+  -o-transition: 0.4s ease;
+  transition: 0.4s ease;
+}
+
+.scroll .fill {
+  height: 5rem;
+  width: 0.1rem;
+  position: relative;
+  overflow: hidden;
+  -webkit-transform: translateX(50%);
+  -ms-transform: translateX(50%);
+  transform: translateX(50%);
+  width: 0.1rem;
+  height: 5rem;
+  animation: scrollDown 2s ease infinite;
+}
+
+.scroll .fill:after {
+  content: "";
+  left: 0;
+  top: 0;
+  z-index: -2;
+  position: absolute;
+  border-width: 0;
+  border-left: 0.1rem solid rgba(255, 255, 255, 0.2);
+  width: 0;
+  height: 100%;
+}
+
+.scroll .fill:after {
+  border-left-width: 0.1rem;
+  border-color: rgb(255, 255, 255);
+  border-style: solid;
+}
+
+.scroll .text {
+  position: relative;
+  font-size: 0.8rem;
+  padding-top: 100%;
+  -webkit-transform: translateX(50%);
+  -ms-transform: translateX(50%);
+  transform: translateX(50%);
+}
+
+.scroll .tag {
+  color: #fff;
+  letter-spacing: 3px;
+  -webkit-transform: rotate(90deg) translateX(-50%);
+  -ms-transform: rotate(90deg) translateX(-50%);
+  transform: rotate(90deg) translateX(-50%);
+  -webkit-transform-origin: center center;
+  -ms-transform-origin: center center;
+  transform-origin: center center;
+}
+
+@keyframes scrollDown {
+  0% {
+    transform-origin: top;
+    transform: scaleY(0);
+  }
+  45% {
+    transform-origin: top;
+    transform: scaleY(1);
+  }
+  55% {
+    transform-origin: bottom;
+    transform: scaleY(1);
+  }
+  100% {
+    transform-origin: bottom;
+    transform: scaleY(0);
+  }
+}

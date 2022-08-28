@@ -1,0 +1,49 @@
+#home {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  /* Center and scale the image nicely */
+  background-image: linear-gradient(
+    to bottom,
+    rgba(9, 18, 34, 0.5),
+    rgba(9, 18, 34, 0.7),
+    rgba(9, 18, 34, 1)
+  );
+}
+
+#home .titleImage {
+  max-width: 800px;
+}
+
+.titleJob {
+  font-family: "Manrope", sans-serif;
+  color: white;
+  font-size: 1.5rem;
+  letter-spacing: 1rem;
+  font-weight: 400;
+  margin: 0px;
+  animation: fadeIn 2.5s 0.6s backwards;
+}
+
+@media (max-width: 625px) {
+  .titleName {
+    font-size: 60px;
+    margin-left: 40px;
+  }
+
+  .titleJob {
+    font-size: 15px;
+    margin-bottom: 0px;
+  }
+}
+@media (max-width: 500px) {
+  .titleName {
+    font-size: 45px;
+    margin-left: 20px;
+    padding: 0px;
+  }
+}
