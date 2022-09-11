@@ -264,7 +264,7 @@ figure.project .footer {
 }
 
 figure.project .demoModal {
-  background-color: #606060;
+  background-color: #bdbdbd;
   border: none;
   color: #ffffff;
   cursor: pointer;
@@ -302,7 +302,7 @@ figure.project .demoModal:after {
 }
 
 figure.project .demoModal:before {
-  border-color: #606060;
+  border-color: #bdbdbd;
   border-top-width: 2px;
   left: 0px;
   top: -5px;
@@ -310,7 +310,7 @@ figure.project .demoModal:before {
 
 figure.project .demoModal:after {
   border-bottom-width: 2px;
-  border-color: #606060;
+  border-color: #bdbdbd;
   bottom: -5px;
   right: 0px;
 }

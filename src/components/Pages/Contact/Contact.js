@@ -9,8 +9,9 @@ import "aos/dist/aos.css";
 
 export default class Contact extends Component {
   componentDidMount() {
-    AOS.init();
+      AOS.init();
   }
+  
   render() {
     return (
       <div>
@@ -19,6 +20,7 @@ export default class Contact extends Component {
             <PageTitle title="Get In " secondImage={touch} />
             <div
               className="skills_grid"
+              data-aos-id="contact"
               data-aos="fade-down"
               data-aos-duration="1000"
               data-aos-delay="200"

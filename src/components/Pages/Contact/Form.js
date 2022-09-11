@@ -19,7 +19,7 @@ class FormExampleCaptureValues extends Component {
   handleChange = (e, { name, value }) => this.setState({ [name]: value });
 
   handleSubmit = (e) => {
-    const { name, email, message } = this.state;
+    const { name, email } = this.state;
     this.setState({
       nameError: false,
       emailError: false,
@@ -37,18 +37,14 @@ class FormExampleCaptureValues extends Component {
     jQuery("#contact .mail, #contact .bubble, #contact .check-stroke").addClass(
       "send"
     );
-    var form = {
-      'from_name': name,
-      'from_email' : email,
-      'message': message
-    }
-    emailjs.sendForm(serviceID, templateID, form, publicKey).then(
+
+    emailjs.sendForm(serviceID, templateID, e.target, publicKey).then(
       (result) => {
-        console.log(form);
+        console.log(e.target);
         console.log(result.text);
       },
       (error) => {
-        console.log(form);
+        console.log(e.target);
         console.log(error.text);
       }
     );

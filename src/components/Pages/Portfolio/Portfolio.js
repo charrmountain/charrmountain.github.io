@@ -11,6 +11,7 @@ export default class Portfolio extends Component {
   componentDidMount() {
     AOS.init();
   }
+  
   render() {
     return (
       <div>

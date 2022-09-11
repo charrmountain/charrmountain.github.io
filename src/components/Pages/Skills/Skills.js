@@ -154,6 +154,7 @@ export default class Skills extends Component {
               data-aos="fade-down"
               data-aos-duration="1000"
               data-aos-delay="200"
+              data-aos-id="SKILLS"
             >
               <Grid columns="five" divided>
                 {skills.map((row) => {
