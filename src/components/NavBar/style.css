@@ -40,6 +40,23 @@
 .siteHeader a:hover {
   color: white;
 }
+.siteHeader .mobileOnly{
+  display: none !important;
+}
+
+.homeContainer .ui.sidebar {
+  background-color: rgba(6, 12, 23, 1) !important;
+}
+.homeContainer .ui.sidebar a{
+  font-family: 'Manrope';
+  text-transform: uppercase;
+  font-size: 1.5rem;
+  font-family: "Manrope", sans-serif;
+  text-transform: uppercase !important;
+  transition: color .1s ease;
+  color: rgba(255,255,255,.7)!important;
+  letter-spacing: 3px;
+}
 
 @media (max-width: 428px) {
   a {
@@ -47,4 +64,16 @@
     margin: 0px;
     padding: 0px;
   }
+}
+
+@media (max-width: 1000px) {
+
+  .siteHeader .menu .item:not(.siteHeader .menu .item.mobileOnly){
+    display: none !important;
+  }
+
+  .siteHeader .mobileOnly{
+    display: flex !important;
+  }
+
 }

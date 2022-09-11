@@ -13,6 +13,7 @@ class PortfolioContainer extends Component {
   state = {
     currentPage: "HOME",
     style: "",
+    visible : false,
   };
 
   componentDidMount() {

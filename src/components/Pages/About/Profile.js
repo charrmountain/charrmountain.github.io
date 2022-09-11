@@ -12,14 +12,20 @@ export default class Profile extends Component {
 
   componentDidMount() {
     AOS.init();
+    function setHeight(){
+      var height = jQuery('#profile .imageWrapper').outerHeight();
+      const profile = document.querySelector('#profile');
+      profile.style.setProperty('--height', (height + 100) + 'px');//set
+      const about = document.querySelector('#about');
+      about.style.setProperty('--height', (height + 100) + 'px');//set
+    }
+    jQuery( document ).ready(function() {
+        setHeight();
+    });
     jQuery( window ).resize(function() {
       var viewportWidth = jQuery(window).width();
       if(viewportWidth < 1050){
-        var height = jQuery('#profile .imageWrapper').outerHeight();
-        const profile = document.querySelector('#profile');
-        profile.style.setProperty('--height', (height + 100) + 'px');//set
-        const about = document.querySelector('#about');
-        about.style.setProperty('--height', (height + 100) + 'px');//set
+        setHeight();
       }
     });
 
