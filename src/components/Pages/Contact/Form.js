@@ -91,7 +91,7 @@ class FormExampleCaptureValues extends Component {
             <Form.Input
               id="name"
               placeholder="Name"
-              name="from_name"
+              name="name"
               value={name}
               error={nameError}
               onChange={this.handleChange}
@@ -99,7 +99,7 @@ class FormExampleCaptureValues extends Component {
             <Form.Input
               id="email"
               placeholder="Email"
-              name="from_email"
+              name="email"
               value={email}
               error={emailError}
               onChange={this.handleChange}
