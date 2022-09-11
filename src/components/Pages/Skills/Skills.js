@@ -57,6 +57,13 @@ export default class Skills extends Component {
         jQuery("#skills .projectRelation span").removeClass("fadeIn");
       },
     });
+
+    jQuery( window ).resize(function() {
+      var viewportWidth = jQuery(window).width();
+      if(viewportWidth < 750){
+        jQuery('#skills .wrapper').append(jQuery('#skills .projectRelation'));
+      }
+    });
   }
 
   handleItemHoverEnter = (e, skill) => {

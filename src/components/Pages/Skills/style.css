@@ -88,3 +88,13 @@
     opacity: 1;
   }
 }
+
+@media (max-width: 750px) {
+  #skills .projectRelation {
+      left: 2rem;
+      top: initial;
+  }
+  #skills .skillsGrid {
+    margin: 3rem 2rem;
+  }
+}

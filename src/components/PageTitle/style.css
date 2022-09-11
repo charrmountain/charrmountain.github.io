@@ -23,3 +23,13 @@
 #pageTitle .titleImage.second {
   margin-left: 20px;
 }
+
+@media (max-width: 500px) {
+  #pageTitle .title {
+      font-size: 3rem;
+  }
+  #pageTitle .titleImage {
+      max-height: 100px;
+      margin-top: 10px;
+  }
+}

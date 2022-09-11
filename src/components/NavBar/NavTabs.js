@@ -38,6 +38,7 @@ function NavTabs({ currentPage, handlePageChange }) {
         default:
           break;
       }
+      
       jQuery(window).scroll(function () {
           if (jQuery(location).isInViewport()) {
               //  Use #contact instead of this
@@ -48,6 +49,7 @@ function NavTabs({ currentPage, handlePageChange }) {
               jQuery('.menu .'+ page ).removeClass('active');
           }
       });
+      
     });
     return (
       <Menu.Item key={page} href={href} onClick={onClick} className={[className ,page]}>

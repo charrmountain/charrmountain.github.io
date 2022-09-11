@@ -6,15 +6,31 @@ import "aos/dist/aos.css";
 import resume  from "../../../docs/Resume2022.pdf";
 import { IconContext } from "react-icons";
 import { BsDownload } from "react-icons/bs";
+import jQuery from "jquery";
 
 export default class Profile extends Component {
+
   componentDidMount() {
     AOS.init();
-  }
+    jQuery( window ).resize(function() {
+      var viewportWidth = jQuery(window).width();
+      if(viewportWidth < 1050){
+        var height = jQuery('#profile .imageWrapper').outerHeight();
+        const profile = document.querySelector('#profile');
+        profile.style.setProperty('--height', (height + 100) + 'px');//set
+        const about = document.querySelector('#about');
+        about.style.setProperty('--height', (height + 100) + 'px');//set
+      }
+    });
+
+   }
 
   render() {
+    const style = {
+        "--height" : '308px',
+    };
     return (
-      <div id="profile" data-aos="fade">
+      <div id="profile" data-aos="fade" style={style}>
         <Grid columns="two" divided>
           <Grid.Row>
             <Grid.Column

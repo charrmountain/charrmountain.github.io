@@ -327,3 +327,25 @@ figure.project .demoModal.hover:after {
   height: 100%;
   width: 100%;
 }
+@media (max-width: 1000px) {
+  #portfolio .wrapper .ticker {
+      flex-direction: column;
+  }
+  #portfolio .wrapper .tickerMenu {
+    display: flex;
+    width: 100% !important;
+    flex-direction: row !important;
+  }
+  #portfolio .wrapper .ticker.menu {
+    width: 100%;
+    flex-direction: row;
+    flex-wrap: wrap;  
+  }
+
+  #portfolio .wrapper .column {
+    width: 100% !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}

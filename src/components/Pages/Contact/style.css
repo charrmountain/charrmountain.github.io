@@ -89,3 +89,10 @@
   .swal2-success-ring {
   border: 0.25em solid rgba(255, 255, 255, 0.3);
 }
+
+
+@media (max-width: 1000px) {
+  #contact form {
+      width: 85%;
+  }
+}
