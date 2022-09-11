@@ -11,6 +11,7 @@
   background-attachment: fixed;
   background-image: url(./images/mountain.jpg);
   overflow: auto;
+  overflow-x: hidden;
 }
 
 .button {
