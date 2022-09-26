@@ -329,7 +329,7 @@ figure.project .demoModal.hover:after {
 }
 @media (max-width: 1000px) {
   #portfolio .wrapper .ticker {
-      flex-direction: column;
+    flex-direction: column;
   }
   #portfolio .wrapper .tickerMenu {
     display: flex;
@@ -339,7 +339,7 @@ figure.project .demoModal.hover:after {
   #portfolio .wrapper .ticker.menu {
     width: 100%;
     flex-direction: row;
-    flex-wrap: wrap;  
+    flex-wrap: wrap;
   }
 
   #portfolio .wrapper .column {
@@ -347,5 +347,26 @@ figure.project .demoModal.hover:after {
     display: flex;
     align-items: center;
     justify-content: center;
+  }
+}
+@media (max-width: 600px) {
+  #portfolio figure.project .about {
+    display: none;
+  }
+  figure.project {
+    max-height: 265px;
+  }
+  figure.project figcaption {
+    width: 55%;
+  }
+  figure.project figcaption:before {
+    left: 60%;
+  }
+  figure.project:after {
+    top: 44%;
+  }
+  figure.project .gitHubPort {
+    bottom: 15px;
+    right: 3%;
   }
 }
