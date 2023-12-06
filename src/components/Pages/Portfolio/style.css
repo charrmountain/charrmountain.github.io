@@ -26,6 +26,7 @@
 #portfolio .wrapper .tickerMenu .projects {
   text-transform: uppercase;
   letter-spacing: 2px;
+  font-size: 13px;
 }
 
 #portfolio .projects_grid {
@@ -62,7 +63,7 @@ figure.project {
   position: relative;
   overflow: hidden;
   margin: 0.5rem;
-  max-height: 320px;
+  height: 320px;
   width: 550px;
   color: #000000;
   text-align: left;
@@ -75,7 +76,17 @@ figure.project * {
   -webkit-transition: all 0.35s ease;
   transition: all 0.35s ease;
 }
-
+figure.project .projectImg {
+  background: #ffffff40;
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+figure.project .projectImg img{
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
 figure.project .projectTitle {
   color: grey;
   font-size: 22px;
@@ -88,7 +99,6 @@ figure.project .projectSource {
   color: grey;
   font-size: 12px;
 }
-
 figure.project .projectTitle:hover {
   color: rgba(6, 12, 23, 1);
 }
@@ -117,7 +127,7 @@ figure.project figcaption {
   opacity: 1;
   padding: 30px 10px 30px 0;
   background-color: #ffffff;
-  width: 40%;
+  width: 42%;
   -webkit-transform: translateX(-150%);
   transform: translateX(-150%);
   display: flex;
@@ -129,7 +139,7 @@ figure.project figcaption:before {
   top: 50%;
   -webkit-transform: translateY(-50%);
   transform: translateY(-50%);
-  left: 72%;
+  left: 75%;
   content: "";
   width: 0;
   height: 0;
@@ -140,7 +150,7 @@ figure.project figcaption:before {
 figure.project:after {
   position: absolute;
   top: 50%;
-  left: 29%;
+  left: 31%;
   content: "";
   width: 0;
   height: 0;
@@ -158,8 +168,8 @@ figure.project .demoModal,
 figure.project .codingLanguages,
 figure.project .projectSource {
   line-height: 1.5em;
-  -webkit-transform: translateX(30px);
-  transform: translateX(30px);
+  -webkit-transform: translateX(25px);
+  transform: translateX(25px);
   margin: 0;
 }
 figure.project h3 {
