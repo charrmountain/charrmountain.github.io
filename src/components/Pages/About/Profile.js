@@ -87,11 +87,13 @@ export default class Profile extends Component {
                 </p>
                 <p>
                   Since then I have further advanced my skills at Agent Elite,
-                  Inc. by becoming dominate in PHP and WordPress. Pairing my
+                  Inc. becoming dominate in PHP and WordPress. 
+                  New opportunities came at MARQ labs where I built, and maintained multiple Shopify sites. 
+                  Now with Ferocious Media, I am able to further establish my WordPress and PHP expertise. Pairing my
                   developing skills with my background in customer service has
                   become a match made in user experience heaven.
                 </p>
-                <p>
+                <p>c
                   With each project, my aim is to best engage my audience for an
                   impactful user experience. Excited to leverage my skills in
                   the future as part of a fast-paced, quality-driven team!

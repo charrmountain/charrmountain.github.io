@@ -206,6 +206,10 @@ export default class Projects extends Component {
             </IconContext.Provider>
           </div>
         );
+      case "Green Pro Cleaning":
+      case "Craig's Services":
+      case "Silverado Mechanical":
+      case "Emerald Home Services":
       case "Elite Informer":
         return (
           <div className="codingLanguages">
