@@ -6,7 +6,7 @@ import { IconContext } from "react-icons";
 import { FaLinkedin, FaGithub } from "react-icons/fa";
 import { BsDownload } from "react-icons/bs";
 import { FiMail } from "react-icons/fi";
-import resume  from "../../docs/Resume2022.pdf";
+import resume  from "../../docs/Resume2023.pdf";
 
 
 class Footer extends Component {

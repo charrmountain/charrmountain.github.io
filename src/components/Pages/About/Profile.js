@@ -3,7 +3,7 @@ import { Grid, Image, Divider } from "semantic-ui-react";
 import AOS from "aos";
 import charlotte from "./images/charlotte.jpg";
 import "aos/dist/aos.css";
-import resume  from "../../../docs/Resume2022.pdf";
+import resume  from "../../../docs/Resume2023.pdf";
 import { IconContext } from "react-icons";
 import { BsDownload } from "react-icons/bs";
 import jQuery from "jquery";

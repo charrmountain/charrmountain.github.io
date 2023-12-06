@@ -5,7 +5,6 @@ import { Form, Button } from "semantic-ui-react";
 import jQuery from "jquery";
 import Swal from "sweetalert2";
 import emailjs from "@emailjs/browser";
-import { serviceID, templateID, publicKey } from "../../../private/private.js";
 
 class FormExampleCaptureValues extends Component {
   state = {
@@ -38,7 +37,7 @@ class FormExampleCaptureValues extends Component {
       "send"
     );
 
-    emailjs.sendForm(serviceID, templateID, e.target, publicKey).then(
+    emailjs.sendForm('service_w1f9y6v', 'template_ra2fl0q', e.target, 'sPH7cvYJtxT0sAThu').then(
       (result) => {
         console.log(e.target);
         console.log(result.text);
